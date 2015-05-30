@@ -4,13 +4,14 @@ section#schedule
       .span12
         .module-header.schedule-header
           h4 Programa
+
       .span12
         ul#schedule-tabs.nav.nav-pills.tab-fillspace
-
           - data.schedule.days.each_with_index do |day, index|
             li class=('active' if index == 0)
               a data-toggle="tab" href="##{day.id}"
                 = day.date
+
       .tab-content
         - data.schedule.days.each_with_index do |day, index|
           div class="tab-pane wo-tab-pane fade in #{'active' if index==0}" id="#{day.id}"
