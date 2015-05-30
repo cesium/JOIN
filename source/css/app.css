@@ -1,9 +1,9 @@
 /*
- *= require "_bootstrap.min"
- *= require "_bootstrap-responsive.min"
- *= require "_style.min"
- *= require "_fonts"
- *= require "_font-awesome.min"
- *= require "_jquery.countdown"
- *= require "_flexslider"
+ *= require "_bootstrap.min.css"
+ *= require "_bootstrap-responsive.min.css"
+ *= require "_style.min.css"
+ *= require "_fonts.css"
+ *= require "_font-awesome.min.css"
+ *= require "_jquery.countdown.css"
+ *= require "_flexslider.css"
  */
