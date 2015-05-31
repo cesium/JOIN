@@ -1,0 +1,104 @@
+#
+# Documentação do formato
+#*************************
+# pdf: pdf url (opcional)
+# days:
+#   - id: identifier
+#     date: data, por exemplo 'Junho 23'
+#     title: título
+#     text: >
+#       multi line
+#       text (com suporte a html)
+#     events:
+#       - time: 'hh:mm' (as " ou ' são necessárias aqui)
+#         icon: (opcional) icon do fontawesome, exemplo: diamond. http://fortawesome.github.io/Font-Awesome/icons/
+#         title: título do evento
+#         speaker: (opcional)
+#           name: Nome do Speaker
+#           from: Empresa ou Equipa que representa (opcional)
+#         text: >
+#           multi line
+#           text (com suporte a html)
+#           (opcional)
+#
+#*************************
+pdf: '#'
+days:
+  - id: dayone
+    date: Junho 23
+    title: Primeiro Dia
+    text: >
+      Neste primeiro dia amet, consectetur adipiscing elit. Proin bibendum ipsum
+      eget nulla molestie, vitae ultricies nulla dapibus. Nulla vel faucibus erat,
+      sed malesuada purus. Quisque varius metus et erat pulvinar luctus. Fusce neque
+      arcu, viverra vel dui vitae, commodo vulputate orci. Cras et ipsum placerat,
+      semper tortor a, venenatis enim. Morbi a vehicula nibh, ac bibendum nulla.
+      Praesent tincidunt neque eget lectus mattis ullamcorper.
+    events:
+      - time: '09:00'
+        icon: check
+        title: Acreditação
+      - time: '09:30'
+        icon: share
+        title: Sessão de Abertura
+        text: >
+          Sessão de abertura da edição deste ano. Será apresentado o calendário,
+          os desafios e os parceiros das JOIN.
+      - time: '10:00'
+        icon: microphone
+        title: Opening Keynote
+        speaker:
+          name: Pedro Freitas
+          from: Universidade do Minho
+        text: >
+          Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio. Cum sociis
+          natoquesel usts et magnis dis parturient montes, nascetur ridiculust mus. Donec
+          vel neque ligula, sed cust metus. Vivamus porta velit at metus convallis porta.
+          Etiam eget nunc ante. Nullam sit amet act nisis egestr sapien. Aliquam nec aliquam
+          libero. Vestibulum consectetur sodales adipiscing. Vestibulum mi neque, vehicula
+          id hendrerit tincidunt, aliquam nec elitas quisque pellentesque varius urna.
+          Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio.
+      - time: '10:40'
+        icon: coffee
+        title: Coffee Break
+      - time: '11:00'
+        title: Second Keynote
+        speaker:
+          name: Ricardo Oliveira
+          from: Eurotux
+        text: >
+          Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio. Cum sociis
+          natoquesel usts et magnis dis parturient montes, nascetur ridiculust mus. Donec
+          vel neque ligula, sed cust metus. Vivamus porta velit at metus convallis porta.
+          Etiam eget nunc ante. Nullam sit amet act nisis egestr sapien. Aliquam nec aliquam
+          libero. Vestibulum consectetur sodales adipiscing. Vestibulum mi neque, vehicula
+          id hendrerit tincidunt, aliquam nec elitas quisque pellentesque varius urna.
+          Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio.
+      - time: '12:30'
+        title: Almoço
+  - id: daytwo
+    date: Junho 25
+    title: Segundo Dia
+    text: >
+      Neste segundo dia amet, consectetur adipiscing elit. Proin bibendum ipsum
+      eget nulla molestie, vitae ultricies nulla dapibus. Nulla vel faucibus erat,
+      sed malesuada purus. Quisque varius metus et erat pulvinar luctus. Fusce neque
+      arcu, viverra vel dui vitae, commodo vulputate orci. Cras et ipsum placerat,
+      semper tortor a, venenatis enim. Morbi a vehicula nibh, ac bibendum nulla.
+      Praesent tincidunt neque eget lectus mattis ullamcorper.
+    events:
+      - time: '09:00'
+        title: Brevemente
+  - id: daythree
+    date: Junho 26
+    title: Terceiro Dia
+    text: >
+      Neste terceiro dia amet, consectetur adipiscing elit. Proin bibendum ipsum
+      eget nulla molestie, vitae ultricies nulla dapibus. Nulla vel faucibus erat,
+      sed malesuada purus. Quisque varius metus et erat pulvinar luctus. Fusce neque
+      arcu, viverra vel dui vitae, commodo vulputate orci. Cras et ipsum placerat,
+      semper tortor a, venenatis enim. Morbi a vehicula nibh, ac bibendum nulla.
+      Praesent tincidunt neque eget lectus mattis ullamcorper.
+    events:
+      - time: '09:00'
+        title: Brevemente

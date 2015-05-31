@@ -7,3 +7,12 @@
  *= require "_jquery.countdown.css"
  *= require "_flexslider.css"
  */
+
+.timeline-icon-container {
+  text-align: center;
+}
+
+.timeline-icon-container i {
+  padding-top: 2px;
+  padding-left: 0px;
+}
