@@ -3,15 +3,30 @@ section#org
     .row
       .span12.hero-unit.text-center
         h2 Organização
-      .span3.text-center
-        a href="#"
-          img.sponsor-logo alt="" src="images/org/ee-um.png" /
-      .span3.text-center
-        a href="#"
-          img.sponsor-logo alt="" src="images/org/ec-um.jpg" /
-      .span3.text-center
-        a href="#"
-          img alt="" src="images/org/cesium.png" /
-      .span3.text-center
-        a href="#"
-          img alt="" src="images/org/necc.png" /
+
+      .hidden-phone
+        .span6 style="text-align:right"
+          a href="http://www.eng.uminho.pt/"
+            = image_tag 'org/ee-um.png'
+        .span6
+          a href="http://www.ecum.uminho.pt/"
+            = image_tag 'org/ec-um.png'
+        .span6 style="text-align:right"
+          a href="http://www.cesium.di.uminho.pt/"
+            = image_tag 'org/cesium.png'
+        .span6
+          a href="http://necc.di.uminho.pt/"
+            = image_tag 'org/necc.png'
+      .visible-phone
+        .span6.text-center
+          a href="http://www.eng.uminho.pt/"
+            = image_tag 'org/ee-um.png'
+        .span6.text-center
+          a href="http://www.ecum.uminho.pt/"
+            = image_tag 'org/ec-um.png'
+        .span6.text-center
+          a href="http://www.cesium.di.uminho.pt/"
+            = image_tag 'org/cesium.png'
+        .span6.text-center
+          a href="http://necc.di.uminho.pt/"
+            = image_tag 'org/necc.png'
