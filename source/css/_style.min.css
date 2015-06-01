@@ -372,9 +372,9 @@ select:focus:invalid:focus {
     padding: 0px;
 }
 
-.top-bar .logo span:hover {
+/*.top-bar .logo span:hover {
     background-position: 0 -40px;
-}
+}*/
 
 .top-bar nav {
     -webkit-box-shadow: none;
@@ -455,11 +455,11 @@ select:focus:invalid:focus {
     text-shadow: none;
 }
 
-.top-bar.alt .logo span:hover {
+/*.top-bar.alt .logo span:hover {
     background-position: 0 -40px;
     color: #3B8A8F;
     text-shadow: none;
-}
+}*/
 
 .top-bar.alt nav {
     top: 15px;
@@ -595,7 +595,7 @@ footer {
     font-size: 14px;
     font-weight: 100;
     height: 200px;
-    padding: 20px 0;
+    padding: 50px 0;
 }
 
 footer img {
