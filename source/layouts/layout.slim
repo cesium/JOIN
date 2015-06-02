@@ -1,13 +1,16 @@
 doctype html
-html lang="en" 
+html
   head
-    title JOIN
-
-    / Favicon
-    = favicon_tag 'favicon.png'
+    title JOIN 2015
+    meta content="width=device-width, initial-scale=1.0" name="viewport" /
 
     /! all css files
     = stylesheet_link_tag "app"
+
+    / Favicon
+    = favicon_tag './images/favicon.ico'
+
+    meta content=("text/html; charset=utf-8") http-equiv="Content-Type" /
 
     /! HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries
     /! WARNING: Respond.js doesn't work if you view the page via file://
@@ -24,4 +27,5 @@ html lang="en"
     = partial 'footer'
 
     /! javascript
+    = javascript_include_tag "https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"
     = javascript_include_tag "app"

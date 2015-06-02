@@ -57,7 +57,7 @@ set :css_dir, 'css'
 
 set :js_dir, 'js'
 
-set :images_dir, 'img'
+set :images_dir, 'images'
 
 set :fonts_dir, 'fonts'
 
@@ -67,7 +67,7 @@ set :build_dir, 'build'
 # meter um ficheiro index.html em cada pasta para ter pretty urls
 activate :directory_indexes
 
-#condigurações do slim
+#configurações do slim
 set :slim, {
   pretty: true,
   format: :html,
@@ -88,7 +88,7 @@ configure :build do
 
   # Minify HTML
   activate :minify_html
-  
+
   # Enable cache buster
   # activate :asset_hash
 

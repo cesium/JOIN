@@ -1,3 +1,18 @@
 /*
- *= require "_dummy"
+ *= require "_bootstrap.min.css"
+ *= require "_bootstrap-responsive.min.css"
+ *= require "_style.min.css"
+ *= require "_fonts.css"
+ *= require "_font-awesome.min.css"
+ *= require "_jquery.countdown.css"
+ *= require "_flexslider.css"
  */
+
+.timeline-icon-container {
+  text-align: center;
+}
+
+.timeline-icon-container i {
+  padding-top: 2px;
+  padding-left: 0px;
+}

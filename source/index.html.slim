@@ -1,6 +1,46 @@
 / para incluir um partial
 / = partial 'nome_do_partial_sem_underscore'
 
-p parte principal da página
+/p parte principal da página
 
-p= data.dummy[:exampletext]
+/p= data.dummy[:exampletext]
+
+section#intro
+  .container
+    .flexslider
+      ul.slides
+        li
+          .row.jumbotron
+            .span12.text-center
+              h1 JOIN 2015
+              h3.info
+                span.days 23&ndash;25&ndash;26
+                span.month
+                  b Junho
+                span.location Universidade do Minho
+              a.btn.btn-large.btn-primary href="#registrations" Inscreve-te
+
+        li
+          .row.jumbotron
+            .span12.text-center
+              h1 JOIN 2015
+              h3 Jornadas de Informática
+              a.btn.btn-large.btn-primary href="#registrations"  Inscreve-te
+
+= partial "about"
+
+= partial "registrations"
+
+= partial "schedule"
+
+= partial "avenues"
+
+= partial "maps"
+
+= partial "sponsors"
+
+= partial "org"
+
+= partial "contact"
+
+
