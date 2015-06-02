@@ -372,9 +372,9 @@ select:focus:invalid:focus {
     padding: 0px;
 }
 
-.top-bar .logo span:hover {
+/*.top-bar .logo span:hover {
     background-position: 0 -40px;
-}
+}*/
 
 .top-bar nav {
     -webkit-box-shadow: none;
@@ -419,7 +419,7 @@ select:focus:invalid:focus {
 .top-bar .navbar .nav > li > a:hover,
 .top-bar.alt .navbar .nav > li > a:hover {
     color: #fff;
-    background: #48A3A6 !important;
+    background: #e27249 !important;
 }
 
 .top-bar .navbar .nav > li > a:focus,
@@ -455,11 +455,11 @@ select:focus:invalid:focus {
     text-shadow: none;
 }
 
-.top-bar.alt .logo span:hover {
+/*.top-bar.alt .logo span:hover {
     background-position: 0 -40px;
     color: #3B8A8F;
     text-shadow: none;
-}
+}*/
 
 .top-bar.alt nav {
     top: 15px;
@@ -568,13 +568,31 @@ nav select {
     padding-bottom: 80px;
 }
 
+#contact h3{
+    color: #000000;
+}
+
+#contact i.fa.fa-map-marker.fa-3x{
+    color: #e67e22;
+}
+
+#contact i.fa.fa-mobile.fa-3x{
+    color: #3498db;
+}
+
+#contact i.fa.fa-envelope-o.fa-3x{
+    color: #2ecc71;
+}
+
+
 #newsletter {
     background: #E7EBED;
     padding: 60px 0;
 }
 
 #registrations {
-    background: #EE3225;
+    background: #e74c3c;
+    padding: 20px 0;
 }
 
 #org {
@@ -595,7 +613,7 @@ footer {
     font-size: 14px;
     font-weight: 100;
     height: 200px;
-    padding: 20px 0;
+    padding: 50px 0;
 }
 
 footer img {
