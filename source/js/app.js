@@ -1,4 +1,3 @@
-//= require "_maps.js"
 //= require "_jquery.ui.map.min.js"
 //= require "_bootstrap.min.js"
 //= require "_jquery.flexslider-min.js"
