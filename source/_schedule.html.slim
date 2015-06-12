@@ -36,7 +36,8 @@ section#schedule
                     .timeline-content
                       .event-content
                         div class="event-title#{' toggle-item-title' if event.text.present?}" data-count="1"
-                          =image_tag 'images/logo-hover.png', style: 'float:right;margin-right:0.5em;height:3.5em;background-color:black'
+                          - if event.image.present?
+                            =image_tag event.image, style: 'max-width:7.5em'
                           h3= event.title
                           - if (speaker = event.speaker).present?
                             h4
@@ -45,5 +46,4 @@ section#schedule
                                 span style="margin-left:0.5em;" =speaker.from
                         - if event.text.present?
                           .toggle-item-body style="display: none;"
-                            =image_tag 'images/logo-hover.png', style: 'float:right;background-color:yellow'
                             p== event.text
