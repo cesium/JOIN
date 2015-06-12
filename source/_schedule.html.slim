@@ -43,7 +43,7 @@ section#schedule
                             h4
                               = speaker.name
                               - if speaker.from.present?
-                                span style="margin-left:0.5em;" =speaker.from
+                                span<=speaker.from
                         - if event.text.present?
                           .toggle-item-body style="display: none;"
                             p== event.text
