@@ -27,88 +27,88 @@ pdf: '#'
 days:
   - id: dayone
     date: Junho 23
-    title: Primeiro Dia
-    text: >
-      Neste primeiro dia amet, consectetur adipiscing elit. Proin bibendum ipsum
-      eget nulla molestie, vitae ultricies nulla dapibus. Nulla vel faucibus erat,
-      sed malesuada purus. Quisque varius metus et erat pulvinar luctus. Fusce neque
-      arcu, viverra vel dui vitae, commodo vulputate orci. Cras et ipsum placerat,
-      semper tortor a, venenatis enim. Morbi a vehicula nibh, ac bibendum nulla.
-      Praesent tincidunt neque eget lectus mattis ullamcorper.
+    title: 40 Anos de Informática na UM
+    # text: >
+    #   Neste primeiro dia amet, consectetur adipiscing elit. Proin bibendum ipsum
+    #   eget nulla molestie, vitae ultricies nulla dapibus. Nulla vel faucibus erat,
+    #   sed malesuada purus. Quisque varius metus et erat pulvinar luctus. Fusce neque
+    #   arcu, viverra vel dui vitae, commodo vulputate orci. Cras et ipsum placerat,
+    #   semper tortor a, venenatis enim. Morbi a vehicula nibh, ac bibendum nulla.
+    #   Praesent tincidunt neque eget lectus mattis ullamcorper.
     events:
       - time: '09:00'
-        icon: check
-        title: Acreditação
-      - time: '09:30'
-        icon: share
-        title: Sessão de Abertura
-        text: >
-          Sessão de abertura da edição deste ano. Será apresentado o calendário,
-          os desafios e os parceiros das JOIN.
-      - time: '10:00'
-        icon: microphone
-        title: Opening Keynote
-        speaker:
-          name: Pedro Freitas
-          from: Universidade do Minho
-        text: >
-          Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio. Cum sociis
-          natoquesel usts et magnis dis parturient montes, nascetur ridiculust mus. Donec
-          vel neque ligula, sed cust metus. Vivamus porta velit at metus convallis porta.
-          Etiam eget nunc ante. Nullam sit amet act nisis egestr sapien. Aliquam nec aliquam
-          libero. Vestibulum consectetur sodales adipiscing. Vestibulum mi neque, vehicula
-          id hendrerit tincidunt, aliquam nec elitas quisque pellentesque varius urna.
-          Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio.
-      - time: '10:40'
-        icon: coffee
-        title: Coffee Break
-      - time: '11:00'
-        title: Second Keynote
-        speaker:
-          name: Ricardo Oliveira
-          from: Eurotux
-        text: >
-          Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio. Cum sociis
-          natoquesel usts et magnis dis parturient montes, nascetur ridiculust mus. Donec
-          vel neque ligula, sed cust metus. Vivamus porta velit at metus convallis porta.
-          Etiam eget nunc ante. Nullam sit amet act nisis egestr sapien. Aliquam nec aliquam
-          libero. Vestibulum consectetur sodales adipiscing. Vestibulum mi neque, vehicula
-          id hendrerit tincidunt, aliquam nec elitas quisque pellentesque varius urna.
-          Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio.
-      - time: '12:30'
-        title: Almoço
-      - time: '14:30'
-        image: 'logo-hover.png'
-        speaker:
-          name: Jobshop
-      - time: '18:15'
-        image: 'logo-hover.png'
-        speaker:
-          name: Entrevista
-          from: 'Sala DI 0.02 18:15-20:15'
+        # icon: check
+        title: BREVEMENTE
+      # - time: '09:30'
+      #   icon: share
+      #   title: Sessão de Abertura
+      #   text: >
+      #     Sessão de abertura da edição deste ano. Será apresentado o calendário,
+      #     os desafios e os parceiros das JOIN.
+      # - time: '10:00'
+      #   icon: microphone
+      #   title: Opening Keynote
+      #   speaker:
+      #     name: Pedro Freitas
+      #     from: Universidade do Minho
+      #   text: >
+      #     Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio. Cum sociis
+      #     natoquesel usts et magnis dis parturient montes, nascetur ridiculust mus. Donec
+      #     vel neque ligula, sed cust metus. Vivamus porta velit at metus convallis porta.
+      #     Etiam eget nunc ante. Nullam sit amet act nisis egestr sapien. Aliquam nec aliquam
+      #     libero. Vestibulum consectetur sodales adipiscing. Vestibulum mi neque, vehicula
+      #     id hendrerit tincidunt, aliquam nec elitas quisque pellentesque varius urna.
+      #     Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio.
+      # - time: '10:40'
+      #   icon: coffee
+      #   title: Coffee Break
+      # - time: '11:00'
+      #   title: Second Keynote
+      #   speaker:
+      #     name: Ricardo Oliveira
+      #     from: Eurotux
+      #   text: >
+      #     Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio. Cum sociis
+      #     natoquesel usts et magnis dis parturient montes, nascetur ridiculust mus. Donec
+      #     vel neque ligula, sed cust metus. Vivamus porta velit at metus convallis porta.
+      #     Etiam eget nunc ante. Nullam sit amet act nisis egestr sapien. Aliquam nec aliquam
+      #     libero. Vestibulum consectetur sodales adipiscing. Vestibulum mi neque, vehicula
+      #     id hendrerit tincidunt, aliquam nec elitas quisque pellentesque varius urna.
+      #     Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio.
+      # - time: '12:30'
+      #   title: Almoço
+      # - time: '14:30'
+      #   image: 'logo-hover.png'
+      #   speaker:
+      #     name: Jobshop
+      # - time: '18:15'
+      #   image: 'logo-hover.png'
+      #   speaker:
+      #     name: Entrevista
+      #     from: 'Sala DI 0.02 18:15-20:15'
   - id: daytwo
     date: Junho 25
-    title: Segundo Dia
-    text: >
-      Neste segundo dia amet, consectetur adipiscing elit. Proin bibendum ipsum
-      eget nulla molestie, vitae ultricies nulla dapibus. Nulla vel faucibus erat,
-      sed malesuada purus. Quisque varius metus et erat pulvinar luctus. Fusce neque
-      arcu, viverra vel dui vitae, commodo vulputate orci. Cras et ipsum placerat,
-      semper tortor a, venenatis enim. Morbi a vehicula nibh, ac bibendum nulla.
-      Praesent tincidunt neque eget lectus mattis ullamcorper.
+    title: Wearables / Internet of Things / Unmanned Aerial Vehicles (UAVs)
+    # text: >
+    #   Neste segundo dia amet, consectetur adipiscing elit. Proin bibendum ipsum
+    #   eget nulla molestie, vitae ultricies nulla dapibus. Nulla vel faucibus erat,
+    #   sed malesuada purus. Quisque varius metus et erat pulvinar luctus. Fusce neque
+    #   arcu, viverra vel dui vitae, commodo vulputate orci. Cras et ipsum placerat,
+    #   semper tortor a, venenatis enim. Morbi a vehicula nibh, ac bibendum nulla.
+    #   Praesent tincidunt neque eget lectus mattis ullamcorper.
     events:
       - time: '09:00'
         title: Brevemente
   - id: daythree
     date: Junho 26
-    title: Terceiro Dia
-    text: >
-      Neste terceiro dia amet, consectetur adipiscing elit. Proin bibendum ipsum
-      eget nulla molestie, vitae ultricies nulla dapibus. Nulla vel faucibus erat,
-      sed malesuada purus. Quisque varius metus et erat pulvinar luctus. Fusce neque
-      arcu, viverra vel dui vitae, commodo vulputate orci. Cras et ipsum placerat,
-      semper tortor a, venenatis enim. Morbi a vehicula nibh, ac bibendum nulla.
-      Praesent tincidunt neque eget lectus mattis ullamcorper.
+    title: Novas Linguagens de Programação
+    # text: >
+    #   Neste terceiro dia amet, consectetur adipiscing elit. Proin bibendum ipsum
+    #   eget nulla molestie, vitae ultricies nulla dapibus. Nulla vel faucibus erat,
+    #   sed malesuada purus. Quisque varius metus et erat pulvinar luctus. Fusce neque
+    #   arcu, viverra vel dui vitae, commodo vulputate orci. Cras et ipsum placerat,
+    #   semper tortor a, venenatis enim. Morbi a vehicula nibh, ac bibendum nulla.
+    #   Praesent tincidunt neque eget lectus mattis ullamcorper.
     events:
       - time: '09:00'
         title: Brevemente
