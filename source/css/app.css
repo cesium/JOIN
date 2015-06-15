@@ -16,3 +16,21 @@
   padding-top: 2px;
   padding-left: 0px;
 }
+
+.sponsor {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sponsor img{
+  -webkit-transition-duration: .4s;
+  -moz-transition-duration: .4s;
+  -o-transition-duration: .4s;
+  transition-duration: .4s;
+  background-color: #E7EBED;
+}
+
+.sponsor img:hover{
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
