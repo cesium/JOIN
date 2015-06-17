@@ -83,8 +83,23 @@ days:
         title: Almoço
       - time: '14:30'
         icon: connectdevelop
+        # image: 'sponsors/eurotux.png'
+        title: IT SECTOR
+      - time: '14:00'
+        icon: connectdevelop
         image: 'sponsors/eurotux.png'
       - time: '15:00'
+        icon: coffee
+        title: Coffee Break
+      - time: '15:15'
+        icon: connectdevelop
+        # image: 'sponsors/eurotux.png'
+        title: WIT SOftware
+      - time: '15:45'
+        icon: connectdevelop
+        # image: 'sponsors/eurotux.png'
+        title: WINTOUCH
+      - time: '16:15'
         icon: coffee
         title: Coffee Break
       - time: '16:30'
@@ -96,7 +111,7 @@ days:
       - time: '17:10'
         icon: connectdevelop
         # image: 'sponsors/itgrow.png'
-        title: WIT Software
+        title: INOVA-RIA
       - time: '17:30'
         icon: connectdevelop
         image: 'sponsors/bold.png'
@@ -127,7 +142,7 @@ days:
         title: Coffee Break
       - time: '11:15'
         icon: comments
-        title: Infomática - Perspectivas de Futuro
+        title: Informática - Perspectivas de Futuro
       - time: '12:45'
         icon: cutlery
         title: Almoço
@@ -140,9 +155,17 @@ days:
       - time: '15:00'
         icon: coffee
         title: Coffee Break
-      # - time: '15:15'
-      #   icon: connectdevelop
-      #   image: 'sponsors/wedo.png'
+      - time: '15:15'
+        icon: connectdevelop
+        # image: 'sponsors/creativesystems.png'
+        title: VANGUARDA
+      - time: '15:45'
+        icon: connectdevelop
+        # image: 'sponsors/creativesystems.png'
+        title: ITIM / PROFIMETRICS
+      - time: '16:15'
+        icon: coffee
+        title: Coffee Break
       - time: '16:30'
         icon: connectdevelop
         image: 'sponsors/glintt.png'
@@ -173,7 +196,7 @@ days:
         title: Workshop
       - time: '10:00'
         icon: code
-        title: F#
+        title: Linguagem F#
         text: >
           F# is a mature, open source, cross-platform, functional-first programming language. It empowers users and organizations to tackle complex computing problems with simple, maintainable and robust code.
       - time: '11:00'
@@ -181,12 +204,12 @@ days:
         title: Coffee Break
       - time: '11:15'
         icon: code
-        title: R
+        title: Linguagem R
         text: >
           R is a free software environment for statistical computing and graphics.
       - time: '12:00'
         icon: code
-        title: RUST
+        title: Linguagem RUST
         text: >
           Rust is a systems programming language that runs blazingly fast, prevents nearly all segfaults, and guarantees thread safety.
       - time: '12:45'
@@ -198,7 +221,32 @@ days:
       - time: '14:30'
         icon: connectdevelop
         image: 'sponsors/blip.png'
-
+      - time: '15:00'
+        icon: coffee
+        title: Coffee Break
+      - time: '15:15'
+        icon: connectdevelop
+        # image: 'sponsors/creativesystems.png'
+        title: VILT Group
+      - time: '15:45'
+        icon: connectdevelop
+        # image: 'sponsors/creativesystems.png'
+        title: WAVEFORM
+      - time: '16:15'
+        icon: coffee
+        title: Coffee Break
+      - time: '16:30'
+        icon: connectdevelop
+        # image: 'sponsors/creativesystems.png'
+        title: Caravela Seguros
+      - time: '17:10'
+        icon: connectdevelop
+        # image: 'sponsors/creativesystems.png'
+        title: ETICADATA
+      - time: '17:30'
+        icon: connectdevelop
+        # image: 'sponsors/creativesystems.png'
+        title: CGI
       - time: '20:30'
         icon: star
         title: Jantar de Encerramento
@@ -209,5 +257,7 @@ days:
       - time: '10:00'
         icon: users
         title: coderdojo
+        text: >
+          O CoderDojo Minho é um movimento aberto e sem fins lucrativos para ensinar jovens dos 7 aos 17 a programar. Junte-se a nós para aprender, ajudar ou ambos!
 
 
