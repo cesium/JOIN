@@ -27,7 +27,7 @@ pdf: '#'
 days:
   - id: dayone
     date: Junho 23
-    title: 40 Anos de Informática na UM
+    title: Internet of Things / Unmanned Aerial Vehicles (UAVs)
     # text: >
     #   Neste primeiro dia amet, consectetur adipiscing elit. Proin bibendum ipsum
     #   eget nulla molestie, vitae ultricies nulla dapibus. Nulla vel faucibus erat,
@@ -37,17 +37,16 @@ days:
     #   Praesent tincidunt neque eget lectus mattis ullamcorper.
     events:
       - time: '09:00'
-        # icon: check
-        title: BREVEMENTE
-      # - time: '09:30'
-      #   icon: share
-      #   title: Sessão de Abertura
-      #   text: >
-      #     Sessão de abertura da edição deste ano. Será apresentado o calendário,
-      #     os desafios e os parceiros das JOIN.
-      # - time: '10:00'
-      #   icon: microphone
-      #   title: Opening Keynote
+        icon: check
+        title: Acreditação
+      - time: '09:30'
+        icon: chevron-circle-right
+        title: Sessão de Abertura
+        text: >
+          Sessão de abertura da edição deste ano. Será apresentado o calendário e os parceiros das JOIN.
+      - time: '10:00'
+        icon: microphone
+        title: IOT/UAVs Sessão I
       #   speaker:
       #     name: Pedro Freitas
       #     from: Universidade do Minho
@@ -59,11 +58,12 @@ days:
       #     libero. Vestibulum consectetur sodales adipiscing. Vestibulum mi neque, vehicula
       #     id hendrerit tincidunt, aliquam nec elitas quisque pellentesque varius urna.
       #     Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio.
-      # - time: '10:40'
-      #   icon: coffee
-      #   title: Coffee Break
-      # - time: '11:00'
-      #   title: Second Keynote
+      - time: '11:00'
+        icon: coffee
+        title: Coffee Break
+      - time: '11:15'
+        icon: microphone
+        title: IOT/UAVs Sessão II
       #   speaker:
       #     name: Ricardo Oliveira
       #     from: Eurotux
@@ -75,12 +75,31 @@ days:
       #     libero. Vestibulum consectetur sodales adipiscing. Vestibulum mi neque, vehicula
       #     id hendrerit tincidunt, aliquam nec elitas quisque pellentesque varius urna.
       #     Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio.
-      # - time: '12:30'
-      #   title: Almoço
-      # - time: '14:30'
-      #   image: 'logo-hover.png'
-      #   speaker:
-      #     name: Jobshop
+      - time: '12:00'
+        icon: microphone
+        title: IOT/UAVs Sessão III
+      - time: '12:45'
+        icon: cutlery
+        title: Almoço
+      - time: '14:30'
+        icon: connectdevelop
+        image: 'sponsors/eurotux.png'
+      - time: '15:00'
+        icon: coffee
+        title: Coffee Break
+      - time: '16:30'
+        icon: connectdevelop
+        image: 'sponsors/primavera.png'
+      - time: '16:50'
+        icon: connectdevelop
+        image: 'sponsors/itgrow.png'
+      - time: '17:10'
+        icon: connectdevelop
+        # image: 'sponsors/itgrow.png'
+        title: WIT Software
+      - time: '17:30'
+        icon: connectdevelop
+        image: 'sponsors/bold.png'
       # - time: '18:15'
       #   image: 'logo-hover.png'
       #   speaker:
@@ -88,7 +107,7 @@ days:
       #     from: 'Sala DI 0.02 18:15-20:15'
   - id: daytwo
     date: Junho 25
-    title: Wearables / Internet of Things / Unmanned Aerial Vehicles (UAVs)
+    title: 40 Anos de Informática na UM
     # text: >
     #   Neste segundo dia amet, consectetur adipiscing elit. Proin bibendum ipsum
     #   eget nulla molestie, vitae ultricies nulla dapibus. Nulla vel faucibus erat,
@@ -98,7 +117,46 @@ days:
     #   Praesent tincidunt neque eget lectus mattis ullamcorper.
     events:
       - time: '09:00'
-        title: Brevemente
+        icon: terminal
+        title: Workshop
+      - time: '10:00'
+        icon: comments-o
+        title: 40 Ano de Informática na UMinho
+      - time: '11:00'
+        icon: coffee
+        title: Coffee Break
+      - time: '11:15'
+        icon: comments
+        title: Infomática - Perspectivas de Futuro
+      - time: '12:45'
+        icon: cutlery
+        title: Almoço
+      - time: '14:00'
+        icon: connectdevelop
+        image: 'sponsors/wedo.png'
+      - time: '14:30'
+        icon: connectdevelop
+        image: 'sponsors/accenture.png'
+      - time: '15:00'
+        icon: coffee
+        title: Coffee Break
+      # - time: '15:15'
+      #   icon: connectdevelop
+      #   image: 'sponsors/wedo.png'
+      - time: '16:30'
+        icon: connectdevelop
+        image: 'sponsors/glintt.png'
+      - time: '16:50'
+        icon: connectdevelop
+        image: 'sponsors/creativesystems.png'
+      - time: '17:10'
+        icon: connectdevelop
+        # image: 'sponsors/creativesystems.png'
+        title: OutSystems
+      - time: '17:30'
+        icon: connectdevelop
+        # image: 'sponsors/creativesystems.png'
+        title: XPAND IT
   - id: daythree
     date: Junho 26
     title: Novas Linguagens de Programação
@@ -111,4 +169,45 @@ days:
     #   Praesent tincidunt neque eget lectus mattis ullamcorper.
     events:
       - time: '09:00'
-        title: Brevemente
+        icon: terminal
+        title: Workshop
+      - time: '10:00'
+        icon: code
+        title: F#
+        text: >
+          F# is a mature, open source, cross-platform, functional-first programming language. It empowers users and organizations to tackle complex computing problems with simple, maintainable and robust code.
+      - time: '11:00'
+        icon: coffee
+        title: Coffee Break
+      - time: '11:15'
+        icon: code
+        title: R
+        text: >
+          R is a free software environment for statistical computing and graphics.
+      - time: '12:00'
+        icon: code
+        title: RUST
+        text: >
+          Rust is a systems programming language that runs blazingly fast, prevents nearly all segfaults, and guarantees thread safety.
+      - time: '12:45'
+        icon: cutlery
+        title: Almoço
+      - time: '14:00'
+        icon: connectdevelop
+        image: 'sponsors/ano.png'
+      - time: '14:30'
+        icon: connectdevelop
+        image: 'sponsors/blip.png'
+
+      - time: '20:30'
+        icon: star
+        title: Jantar de Encerramento
+  - id: dayfour
+    date: Junho 27
+    title:
+    events:
+      - time: '10:00'
+        icon: users
+        title: coderdojo
+
+
