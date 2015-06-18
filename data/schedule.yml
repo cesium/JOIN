@@ -81,10 +81,10 @@ days:
       - time: '12:45'
         icon: cutlery
         title: Almoço
-      - time: '14:30'
+      - time: '14:00'
         icon: connectdevelop
         image: 'sponsors/itsector.png'
-      - time: '14:00'
+      - time: '14:30'
         icon: connectdevelop
         image: 'sponsors/eurotux.png'
       - time: '15:00'
@@ -249,6 +249,9 @@ days:
       - time: '20:30'
         icon: star
         title: Jantar de Encerramento
+        speaker:
+          name:
+          from: Museu D. Diogo de Sousa
   - id: dayfour
     date: Junho 27
     title:
@@ -256,7 +259,10 @@ days:
       - time: '10:00'
         icon: users
         title: coderdojo
+        speaker:
+          name:
+          from: Departamento de Informática - Sala 0.02
         text: >
-          O CoderDojo Minho é um movimento aberto e sem fins lucrativos para ensinar jovens dos 7 aos 17 a programar. Junte-se a nós para aprender, ajudar ou ambos!
+          O <a href="http://www.cesium.di.uminho.pt/tags/coderdojo"><span class="external-link">CoderDojo Minho</span></a> é um movimento aberto e sem fins lucrativos para ensinar jovens dos 7 aos 17 a programar. Com a ajuda de membros ativos da comunidade, os mais novos têm a oportunidade de entrar em contacto com o mundo da programação.
 
 
