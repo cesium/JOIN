@@ -83,8 +83,7 @@ days:
         title: Almoço
       - time: '14:30'
         icon: connectdevelop
-        # image: 'sponsors/eurotux.png'
-        title: IT SECTOR
+        image: 'sponsors/itsector.png'
       - time: '14:00'
         icon: connectdevelop
         image: 'sponsors/eurotux.png'
