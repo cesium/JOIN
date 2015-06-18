@@ -36,8 +36,23 @@ section#schedule
                     .timeline-content
                       .event-content
                         div class="event-title#{' toggle-item-title' if event.text.present?}" data-count="1"
-                          - if event.image.present?
-                            =image_tag event.image, style: 'max-width:7.5em'
+                          - if event.image.present? and event.imagelink.present?
+                            a href=(event.imagelink)
+                              - if event.text.present?
+                                .hidden-phone
+                                  =image_tag event.image
+                                .visible-phone
+                                  =image_tag event.image, style: 'margin-top:30px'
+                              - else
+                                =image_tag event.image
+                          - elsif event.image.present?
+                            - if event.text.present?
+                              .hidden-phone
+                                =image_tag event.image
+                              .visible-phone
+                                =image_tag event.image, style: 'margin-top:30px'
+                            - else
+                              =image_tag event.image
                           h3= event.title
                           - if (speaker = event.speaker).present?
                             h4

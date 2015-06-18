@@ -13,6 +13,7 @@
 #       - time: 'hh:mm' (as " ou ' são necessárias aqui)
 #         icon: (opcional) icon do fontawesome, exemplo: diamond. http://fortawesome.github.io/Font-Awesome/icons/
 #         image: (opcional) nome da imagem que pode substituir title e speaker
+#         imagelink: (opcional) link colocado na imagem
 #         title: título do evento (opcional se tiver image)
 #         speaker: (opcional)
 #           name: Nome do Speaker
@@ -104,9 +105,18 @@ days:
       - time: '16:30'
         icon: connectdevelop
         image: 'sponsors/primavera.png'
+        imagelink: 'http://pt.primaverabss.com/pt/'
       - time: '16:50'
         icon: connectdevelop
         image: 'sponsors/itgrow.png'
+        #text: >
+        #  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio. Cum sociis
+        #  natoquesel usts et magnis dis parturient montes, nascetur ridiculust mus. Donec
+        #  vel neque ligula, sed cust metus. Vivamus porta velit at metus convallis porta.
+        #  Etiam eget nunc ante. Nullam sit amet act nisis egestr sapien. Aliquam nec aliquam
+        #  libero. Vestibulum consectetur sodales adipiscing. Vestibulum mi neque, vehicula
+        #  id hendrerit tincidunt, aliquam nec elitas quisque pellentesque varius urna.
+        #  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio.
       - time: '17:10'
         icon: connectdevelop
         # image: 'sponsors/itgrow.png'
