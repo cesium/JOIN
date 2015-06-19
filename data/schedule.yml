@@ -85,20 +85,22 @@ days:
       - time: '14:00'
         icon: connectdevelop
         image: 'sponsors/itsector.png'
+        imagelink: 'http://www.itsector.pt/pt/web/homepage.aspx'
       - time: '14:30'
         icon: connectdevelop
         image: 'sponsors/eurotux.png'
+        imagelink: 'http://eurotux.com'
       - time: '15:00'
         icon: coffee
         title: Coffee Break
       - time: '15:15'
         icon: connectdevelop
-        # image: 'sponsors/eurotux.png'
-        title: WIT SOftware
+        image: 'sponsors/wit.png'
+        imagelink: 'https://www.wit-software.com'
       - time: '15:45'
         icon: connectdevelop
-        # image: 'sponsors/eurotux.png'
-        title: WINTOUCH
+        image: 'sponsors/wintouch.png'
+        imagelink: 'http://cms.wintouch.pt'
       - time: '16:15'
         icon: coffee
         title: Coffee Break
@@ -109,6 +111,7 @@ days:
       - time: '16:50'
         icon: connectdevelop
         image: 'sponsors/itgrow.png'
+        imagelink: 'http://www.itgrow.pt/pt/inicio'
         #text: >
         #  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio. Cum sociis
         #  natoquesel usts et magnis dis parturient montes, nascetur ridiculust mus. Donec
@@ -119,11 +122,17 @@ days:
         #  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio.
       - time: '17:10'
         icon: connectdevelop
-        # image: 'sponsors/itgrow.png'
-        title: INOVA-RIA
+        image: 'sponsors/inovaria.png'
+        imagelink: 'http://www.inova-ria.pt'
       - time: '17:30'
         icon: connectdevelop
         image: 'sponsors/bold.png'
+        imagelink: 'http://www.boldint.com'
+      - time: '17:50'
+        icon: connectdevelop
+        #image: 'sponsors/bold.png'
+        title: I2S
+        imagelink: 'http://www.i2s.pt/index/'
       # - time: '18:15'
       #   image: 'logo-hover.png'
       #   speaker:
@@ -158,9 +167,11 @@ days:
       - time: '14:00'
         icon: connectdevelop
         image: 'sponsors/wedo.png'
+        imagelink: 'http://www.wedotechnologies.com/pt/'
       - time: '14:30'
         icon: connectdevelop
         image: 'sponsors/accenture.png'
+        imagelink: 'http://www.accenture.com/us-en/pages/index.aspx'
       - time: '15:00'
         icon: coffee
         title: Coffee Break
@@ -168,27 +179,35 @@ days:
         icon: connectdevelop
         # image: 'sponsors/creativesystems.png'
         title: VANGUARDA
+        imagelink: 'http://www.vanguarda.pt'
       - time: '15:45'
         icon: connectdevelop
-        # image: 'sponsors/creativesystems.png'
-        title: ITIM / PROFIMETRICS
+        image: 'sponsors/itim.png'
+        imagelink: 'http://www.itim.com'
       - time: '16:15'
         icon: coffee
         title: Coffee Break
       - time: '16:30'
         icon: connectdevelop
         image: 'sponsors/glintt.png'
+        imagelink: 'http://www.glintt.com'
       - time: '16:50'
         icon: connectdevelop
         image: 'sponsors/creativesystems.png'
+        imagelink: 'http://www.creativesystems.eu'
       - time: '17:10'
         icon: connectdevelop
-        # image: 'sponsors/creativesystems.png'
-        title: OutSystems
+        image: 'sponsors/outsystems.png'
+        imagelink: 'http://www.outsystems.com'
       - time: '17:30'
         icon: connectdevelop
-        # image: 'sponsors/creativesystems.png'
-        title: XPAND IT
+        image: 'sponsors/xpandit.png'
+        imagelink: 'http://www.xpand-it.com/en/'
+      - time: '17:50'
+        icon: connectdevelop
+        #image: 'sponsors/xpandit.png'
+        title: FARFETCH
+        imagelink: 'http://www.farfetch.com/pt/'
   - id: daythree
     date: Junho 26
     title: Novas Linguagens de Programação
@@ -227,35 +246,48 @@ days:
       - time: '14:00'
         icon: connectdevelop
         image: 'sponsors/ano.png'
+        imagelink: 'http://www.ano.pt'
       - time: '14:30'
         icon: connectdevelop
         image: 'sponsors/blip.png'
+        imagelink: 'http://www.blip.pt'
       - time: '15:00'
         icon: coffee
         title: Coffee Break
       - time: '15:15'
         icon: connectdevelop
-        # image: 'sponsors/creativesystems.png'
-        title: VILT Group
+        image: 'sponsors/vilt.png'
+        imagelink: 'https://www.vilt-group.com/pt/'
       - time: '15:45'
         icon: connectdevelop
         # image: 'sponsors/creativesystems.png'
         title: WAVEFORM
+        imagelink: 'http://www.waveform.pt'
       - time: '16:15'
         icon: coffee
         title: Coffee Break
       - time: '16:30'
         icon: connectdevelop
-        # image: 'sponsors/creativesystems.png'
-        title: Caravela Seguros
+        image: 'sponsors/caravela.png'
+        imagelink: 'http://www.caravelaseguros.pt/'
+      - time: '16:50'
+        icon: connectdevelop
+        #image: 'sponsors/caravela.png'
+        title: PEPFEED
+        imagelink: 'http://www.pepfeed.com/pt'
       - time: '17:10'
         icon: connectdevelop
-        # image: 'sponsors/creativesystems.png'
-        title: ETICADATA
+        image: 'sponsors/eticadata.png'
+        imagelink: 'https://pt.eticadata.com'
       - time: '17:30'
         icon: connectdevelop
-        # image: 'sponsors/creativesystems.png'
-        title: CGI
+        image: 'sponsors/cgi.png'
+        imagelink: 'http://www.cgi.com.pt'
+      - time: '17:50'
+        icon: connectdevelop
+        #image: 'sponsors/cgi.png'
+        #imagelink: 'http://www.cgi.com.pt'
+        title:
       - time: '20:30'
         icon: star
         title: Jantar de Encerramento
@@ -264,7 +296,9 @@ days:
           from: Museu D. Diogo de Sousa
   - id: dayfour
     date: Junho 27
-    title:
+    title: CoderDojo Minho
+    text: >
+      O <a href="http://www.cesium.di.uminho.pt/tags/coderdojo"><span class="external-link">CoderDojo Minho</span></a> é um movimento aberto e sem fins lucrativos para ensinar jovens dos 7 aos 17 a programar. Com a ajuda de membros ativos da comunidade, os mais novos têm a oportunidade de entrar em contacto com o mundo da programação.
     events:
       - time: '10:00'
         icon: users
@@ -272,7 +306,6 @@ days:
         speaker:
           name:
           from: Departamento de Informática - Sala 0.02
-        text: >
-          O <a href="http://www.cesium.di.uminho.pt/tags/coderdojo"><span class="external-link">CoderDojo Minho</span></a> é um movimento aberto e sem fins lucrativos para ensinar jovens dos 7 aos 17 a programar. Com a ajuda de membros ativos da comunidade, os mais novos têm a oportunidade de entrar em contacto com o mundo da programação.
+
 
 
