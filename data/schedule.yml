@@ -298,7 +298,7 @@ days:
     date: Junho 27
     title: CoderDojo Minho
     text: >
-      O <a href="http://www.cesium.di.uminho.pt/tags/coderdojo"><span class="external-link">CoderDojo Minho</span></a> é um movimento aberto e sem fins lucrativos para ensinar jovens dos 7 aos 17 a programar. Com a ajuda de membros ativos da comunidade, os mais novos têm a oportunidade de entrar em contacto com o mundo da programação.
+      O <a href="http://www.cesium.di.uminho.pt/tags/coderdojo"><span class="external-link">CoderDojo Minho</span></a> é um movimento aberto e sem fins lucrativos para ensinar jovens dos 7 aos 17 a programar. Com a ajuda de membros ativos da comunidade, os mais novos têm a oportunidade de entrar em contacto com o mundo da programação. Inscreva-se <a href="https://coderdojo-minho.typeform.com/to/SrSgBI"><span class="external-link">aqui</span></a>.
     events:
       - time: '10:00'
         icon: users
@@ -306,6 +306,3 @@ days:
         speaker:
           name:
           from: Departamento de Informática - Sala 0.02
-
-
-
