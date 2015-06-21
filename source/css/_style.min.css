@@ -1171,7 +1171,7 @@ a.rss:hover {
     text-transform: uppercase;
 }
 
-.event-image > img {
+.event-image a > img {
     width: 55%;
 }
 

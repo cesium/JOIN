@@ -29,13 +29,8 @@ days:
   - id: dayone
     date: Junho 23
     title: Internet of Things / Unmanned Aerial Vehicles (UAVs)
-    # text: >
-    #   Neste primeiro dia amet, consectetur adipiscing elit. Proin bibendum ipsum
-    #   eget nulla molestie, vitae ultricies nulla dapibus. Nulla vel faucibus erat,
-    #   sed malesuada purus. Quisque varius metus et erat pulvinar luctus. Fusce neque
-    #   arcu, viverra vel dui vitae, commodo vulputate orci. Cras et ipsum placerat,
-    #   semper tortor a, venenatis enim. Morbi a vehicula nibh, ac bibendum nulla.
-    #   Praesent tincidunt neque eget lectus mattis ullamcorper.
+    text: >
+      O primeiro dia incide na "Internet das Coisas", "Wearables" e "UAVs" (vulgarmente conhecidos como "drones"), sobre os desafios técnicos e sociais perante a tendência de se ligar à rede cada vez mais objetos do quotidiano, num mercado de biliões de euros.
     events:
       - time: '09:00'
         icon: check
@@ -130,8 +125,7 @@ days:
         imagelink: 'http://www.boldint.com'
       - time: '17:50'
         icon: connectdevelop
-        #image: 'sponsors/bold.png'
-        title: I2S
+        image: 'sponsors/i2s.png'
         imagelink: 'http://www.i2s.pt/index/'
       # - time: '18:15'
       #   image: 'logo-hover.png'
@@ -151,7 +145,10 @@ days:
     events:
       - time: '09:00'
         icon: terminal
-        title: Workshop
+        title: Business Intelligence
+        speaker:
+          name: Tiago Ferreira
+          from:  Xpand IT
       - time: '10:00'
         icon: comments-o
         title: 40 Ano de Informática na UMinho
@@ -175,11 +172,11 @@ days:
       - time: '15:00'
         icon: coffee
         title: Coffee Break
-      - time: '15:15'
-        icon: connectdevelop
-        # image: 'sponsors/creativesystems.png'
-        title: VANGUARDA
-        imagelink: 'http://www.vanguarda.pt'
+      # - time: '15:15'
+      #   icon: connectdevelop
+      #   # image: 'sponsors/creativesystems.png'
+      #   title: VANGUARDA
+      #   imagelink: 'http://www.vanguarda.pt'
       - time: '15:45'
         icon: connectdevelop
         image: 'sponsors/itim.png'
@@ -203,10 +200,11 @@ days:
         icon: connectdevelop
         image: 'sponsors/xpandit.png'
         imagelink: 'http://www.xpand-it.com/en/'
+        text: >
+          A Xpand IT é uma empresa global, especialista no planeamento estratégico, consultoria, implementação e manutenção de software empresarial, totalmente adaptado às necessidades de cada cliente. Com uma vasta oferta de serviços e produtos, e uma postura transparente e de cooperação com clientes espalhados pelos 5 continentes, a Xpand IT é hoje reconhecida pelo seu profundo conhecimento tecnológico e “Paixão pela Excelência".
       - time: '17:50'
         icon: connectdevelop
-        #image: 'sponsors/xpandit.png'
-        title: FARFETCH
+        image: 'sponsors/farfetch.png'
         imagelink: 'http://www.farfetch.com/pt/'
   - id: daythree
     date: Junho 26
@@ -221,7 +219,10 @@ days:
     events:
       - time: '09:00'
         icon: terminal
-        title: Workshop
+        title: Tecnologias JavaScript
+        speaker:
+          name:
+          from: by Seegno
       - time: '10:00'
         icon: code
         title: Linguagem F#
@@ -272,8 +273,7 @@ days:
         imagelink: 'http://www.caravelaseguros.pt/'
       - time: '16:50'
         icon: connectdevelop
-        #image: 'sponsors/caravela.png'
-        title: PEPFEED
+        image: 'sponsors/pepfeed.png'
         imagelink: 'http://www.pepfeed.com/pt'
       - time: '17:10'
         icon: connectdevelop
@@ -283,17 +283,20 @@ days:
         icon: connectdevelop
         image: 'sponsors/cgi.png'
         imagelink: 'http://www.cgi.com.pt'
-      - time: '17:50'
-        icon: connectdevelop
-        #image: 'sponsors/cgi.png'
-        #imagelink: 'http://www.cgi.com.pt'
-        title:
+      # - time: '17:50'
+      #   icon: connectdevelop
+      #   image: 'sponsors/cgi.png'
+      #   imagelink: 'http://www.cgi.com.pt'
       - time: '20:30'
         icon: star
         title: Jantar de Encerramento
         speaker:
           name:
           from: Museu D. Diogo de Sousa
+        text: >
+          <p>10€ Aluno | 15€ Docente.</p>
+          <p>O pagamento da inscrição no Jantar poderá ser feito através de transferência bancária (0035 0823 0000 9251 8309 3) ou no decorrer das jornadas. O comprovativo da transferência deverá ser enviado para necc@di.uminho.pt.</p>
+          <p><a href="http://join2015.eventbrite.com">Inscreve-te aqui!</a></p>
   - id: dayfour
     date: Junho 27
     title: CoderDojo Minho
