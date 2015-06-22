@@ -21,9 +21,9 @@ section#schedule
               /TODO
               -if day.pdf.present? and day.pdf != '#'
                 .schedule-download
-                  a.btn href=(day.pdf)
+                  a.btn.pdf href=(day.pdf)
                     i.fa.fa-file-pdf-o.fa-lg
-                  p Programa Completo
+                    p Programa Completo
             .span8
               section.timeline.toggle-shortcode.toggles
                 - day.events.each do |event|

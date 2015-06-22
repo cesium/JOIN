@@ -24,13 +24,13 @@
 #           (opcional)
 #
 #*************************
-pdf: '#'
 days:
   - id: dayone
     date: Junho 23
     title: Internet of Things / Unmanned Aerial Vehicles (UAVs)
     text: >
       O primeiro dia incide na "Internet das Coisas", "Wearables" e "UAVs" (vulgarmente conhecidos como "drones"), sobre os desafios técnicos e sociais perante a tendência de se ligar à rede cada vez mais objetos do quotidiano, num mercado de biliões de euros.
+    pdf: ./assets/programa.pdf
     events:
       - time: '09:00'
         icon: check
@@ -42,38 +42,22 @@ days:
           Sessão de abertura da edição deste ano. Será apresentado o calendário e os parceiros das JOIN.
       - time: '10:00'
         icon: microphone
-        title: IOT/UAVs Sessão I
-      #   speaker:
-      #     name: Pedro Freitas
-      #     from: Universidade do Minho
-      #   text: >
-      #     Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio. Cum sociis
-      #     natoquesel usts et magnis dis parturient montes, nascetur ridiculust mus. Donec
-      #     vel neque ligula, sed cust metus. Vivamus porta velit at metus convallis porta.
-      #     Etiam eget nunc ante. Nullam sit amet act nisis egestr sapien. Aliquam nec aliquam
-      #     libero. Vestibulum consectetur sodales adipiscing. Vestibulum mi neque, vehicula
-      #     id hendrerit tincidunt, aliquam nec elitas quisque pellentesque varius urna.
-      #     Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio.
+        title: UAVs
+        speaker:
+          name: Alfredo Martins
       - time: '11:00'
         icon: coffee
         title: Coffee Break
       - time: '11:15'
         icon: microphone
-        title: IOT/UAVs Sessão II
-      #   speaker:
-      #     name: Ricardo Oliveira
-      #     from: Eurotux
-      #   text: >
-      #     Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio. Cum sociis
-      #     natoquesel usts et magnis dis parturient montes, nascetur ridiculust mus. Donec
-      #     vel neque ligula, sed cust metus. Vivamus porta velit at metus convallis porta.
-      #     Etiam eget nunc ante. Nullam sit amet act nisis egestr sapien. Aliquam nec aliquam
-      #     libero. Vestibulum consectetur sodales adipiscing. Vestibulum mi neque, vehicula
-      #     id hendrerit tincidunt, aliquam nec elitas quisque pellentesque varius urna.
-      #     Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio.
+        title: From RFID to IOT
+        speaker:
+          name: João Vilaça
       - time: '12:00'
         icon: microphone
-        title: IOT/UAVs Sessão III
+        title: Wearables e Integração No Que Nós Vestimos
+        speaker:
+          name: André Catarino
       - time: '12:45'
         icon: cutlery
         title: Almoço
@@ -92,10 +76,14 @@ days:
         icon: connectdevelop
         image: 'sponsors/wit.png'
         imagelink: 'https://www.wit-software.com'
-      - time: '15:45'
+      - time: '15:35'
         icon: connectdevelop
         image: 'sponsors/wintouch.png'
         imagelink: 'http://cms.wintouch.pt'
+      - time: '15:55'
+        icon: connectdevelop
+        image: 'sponsors/i2s.png'
+        imagelink: 'http://www.i2s.pt/index/'
       - time: '16:15'
         icon: coffee
         title: Coffee Break
@@ -107,14 +95,6 @@ days:
         icon: connectdevelop
         image: 'sponsors/itgrow.png'
         imagelink: 'http://www.itgrow.pt/pt/inicio'
-        #text: >
-        #  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio. Cum sociis
-        #  natoquesel usts et magnis dis parturient montes, nascetur ridiculust mus. Donec
-        #  vel neque ligula, sed cust metus. Vivamus porta velit at metus convallis porta.
-        #  Etiam eget nunc ante. Nullam sit amet act nisis egestr sapien. Aliquam nec aliquam
-        #  libero. Vestibulum consectetur sodales adipiscing. Vestibulum mi neque, vehicula
-        #  id hendrerit tincidunt, aliquam nec elitas quisque pellentesque varius urna.
-        #  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio.
       - time: '17:10'
         icon: connectdevelop
         image: 'sponsors/inovaria.png'
@@ -123,25 +103,11 @@ days:
         icon: connectdevelop
         image: 'sponsors/bold.png'
         imagelink: 'http://www.boldint.com'
-      - time: '17:50'
-        icon: connectdevelop
-        image: 'sponsors/i2s.png'
-        imagelink: 'http://www.i2s.pt/index/'
-      # - time: '18:15'
-      #   image: 'logo-hover.png'
-      #   speaker:
-      #     name: Entrevista
-      #     from: 'Sala DI 0.02 18:15-20:15'
+
   - id: daytwo
     date: Junho 25
     title: 40 Anos de Informática na UM
-    # text: >
-    #   Neste segundo dia amet, consectetur adipiscing elit. Proin bibendum ipsum
-    #   eget nulla molestie, vitae ultricies nulla dapibus. Nulla vel faucibus erat,
-    #   sed malesuada purus. Quisque varius metus et erat pulvinar luctus. Fusce neque
-    #   arcu, viverra vel dui vitae, commodo vulputate orci. Cras et ipsum placerat,
-    #   semper tortor a, venenatis enim. Morbi a vehicula nibh, ac bibendum nulla.
-    #   Praesent tincidunt neque eget lectus mattis ullamcorper.
+    pdf: ./assets/programa.pdf
     events:
       - time: '09:00'
         icon: terminal
@@ -151,7 +117,7 @@ days:
           from:  Xpand IT
       - time: '10:00'
         icon: comments-o
-        title: 40 Ano de Informática na UMinho
+        title: 40 Anos de Informática na UMinho
       - time: '11:00'
         icon: coffee
         title: Coffee Break
@@ -169,18 +135,20 @@ days:
         icon: connectdevelop
         image: 'sponsors/accenture.png'
         imagelink: 'http://www.accenture.com/us-en/pages/index.aspx'
+        speaker:
+          name: Sessão de Testes Psicotécnicos
+          from: 'Sala DI-0.11 18:15H'
       - time: '15:00'
         icon: coffee
         title: Coffee Break
-      # - time: '15:15'
-      #   icon: connectdevelop
-      #   # image: 'sponsors/creativesystems.png'
-      #   title: VANGUARDA
-      #   imagelink: 'http://www.vanguarda.pt'
-      - time: '15:45'
+      - time: '15:35'
         icon: connectdevelop
         image: 'sponsors/itim.png'
         imagelink: 'http://www.itim.com'
+      - time: '15:55'
+        icon: connectdevelop
+        image: 'sponsors/farfetch.png'
+        imagelink: 'http://www.farfetch.com/pt/'
       - time: '16:15'
         icon: coffee
         title: Coffee Break
@@ -202,45 +170,45 @@ days:
         imagelink: 'http://www.xpand-it.com/en/'
         text: >
           A Xpand IT é uma empresa global, especialista no planeamento estratégico, consultoria, implementação e manutenção de software empresarial, totalmente adaptado às necessidades de cada cliente. Com uma vasta oferta de serviços e produtos, e uma postura transparente e de cooperação com clientes espalhados pelos 5 continentes, a Xpand IT é hoje reconhecida pelo seu profundo conhecimento tecnológico e “Paixão pela Excelência".
-      - time: '17:50'
-        icon: connectdevelop
-        image: 'sponsors/farfetch.png'
-        imagelink: 'http://www.farfetch.com/pt/'
+
   - id: daythree
     date: Junho 26
     title: Novas Linguagens de Programação
-    # text: >
-    #   Neste terceiro dia amet, consectetur adipiscing elit. Proin bibendum ipsum
-    #   eget nulla molestie, vitae ultricies nulla dapibus. Nulla vel faucibus erat,
-    #   sed malesuada purus. Quisque varius metus et erat pulvinar luctus. Fusce neque
-    #   arcu, viverra vel dui vitae, commodo vulputate orci. Cras et ipsum placerat,
-    #   semper tortor a, venenatis enim. Morbi a vehicula nibh, ac bibendum nulla.
-    #   Praesent tincidunt neque eget lectus mattis ullamcorper.
+    pdf: ./assets/programa.pdf
     events:
       - time: '09:00'
         icon: terminal
-        title: Tecnologias JavaScript
+        title: Modern Web Applications
         speaker:
           name:
           from: by Seegno
+        text: >
+          How modern client-side frameworks are helping to build better data-driven applications and improving the developer workflow.
       - time: '10:00'
         icon: code
         title: Linguagem F#
         text: >
-          F# is a mature, open source, cross-platform, functional-first programming language. It empowers users and organizations to tackle complex computing problems with simple, maintainable and robust code.
+          F# is a mature, open source, cross-platform, functional-first programming language. It empowers users
+           and organizations to tackle complex computing problems with simple, maintainable and robust code.
+        speaker:
+          name: Luís Neves
       - time: '11:00'
         icon: coffee
         title: Coffee Break
       - time: '11:15'
         icon: code
-        title: Linguagem R
+        title: R, Programação Para a Análise de Dados
         text: >
           R is a free software environment for statistical computing and graphics.
+        speaker:
+          name: Luís Torgo
       - time: '12:00'
         icon: code
         title: Linguagem RUST
         text: >
           Rust is a systems programming language that runs blazingly fast, prevents nearly all segfaults, and guarantees thread safety.
+        speaker:
+          name: Paulo Almeida
       - time: '12:45'
         icon: cutlery
         title: Almoço
@@ -259,11 +227,15 @@ days:
         icon: connectdevelop
         image: 'sponsors/vilt.png'
         imagelink: 'https://www.vilt-group.com/pt/'
-      - time: '15:45'
+      - time: '15:35'
         icon: connectdevelop
         # image: 'sponsors/creativesystems.png'
         title: WAVEFORM
         imagelink: 'http://www.waveform.pt'
+      - time: '15:55'
+        icon: connectdevelop
+        image: 'sponsors/cgi.png'
+        imagelink: 'http://www.cgi.com.pt'
       - time: '16:15'
         icon: coffee
         title: Coffee Break
@@ -279,14 +251,6 @@ days:
         icon: connectdevelop
         image: 'sponsors/eticadata.png'
         imagelink: 'https://pt.eticadata.com'
-      - time: '17:30'
-        icon: connectdevelop
-        image: 'sponsors/cgi.png'
-        imagelink: 'http://www.cgi.com.pt'
-      # - time: '17:50'
-      #   icon: connectdevelop
-      #   image: 'sponsors/cgi.png'
-      #   imagelink: 'http://www.cgi.com.pt'
       - time: '20:30'
         icon: star
         title: Jantar de Encerramento
@@ -301,7 +265,7 @@ days:
     date: Junho 27
     title: CoderDojo Minho
     text: >
-      O <a href="http://www.cesium.di.uminho.pt/tags/coderdojo"><span class="external-link">CoderDojo Minho</span></a> é um movimento aberto e sem fins lucrativos para ensinar jovens dos 7 aos 17 a programar. Com a ajuda de membros ativos da comunidade, os mais novos têm a oportunidade de entrar em contacto com o mundo da programação. Inscreva-se <a href="https://coderdojo-minho.typeform.com/to/SrSgBI"><span class="external-link">aqui</span></a>.
+      O <a href="http://www.cesium.di.uminho.pt/tags/coderdojo"><span class="external-link">CoderDojo Minho</span></a> é um movimento aberto e sem fins lucrativos para ensinar jovens dos 7 aos 17 a programar. Com a ajuda de membros ativos da comunidade, os mais novos têm a oportunidade de entrar em contacto com o mundo da programação. <bold>Inscreve-te <a href="https://coderdojo-minho.typeform.com/to/SrSgBI"><span class="external-link">aqui</span></a>.</bold>
     events:
       - time: '10:00'
         icon: users
