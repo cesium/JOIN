@@ -155,7 +155,7 @@ $(document).ready(function() {
             'icon': image
         }).click(function() {
             $('#map_canvas').gmap('openInfoWindow', {
-                'content': '<h4>JOIN 2015</h4><p><strong>Complexo Pedagógico 2</strong><br>Anfiteatro B1</p>'
+                'content': '<h4>JOIN 2016</h4><p><strong>Complexo Pedagógico 2</strong><br>Anfiteatro B1</p>'
             }, this);
         });
     });
