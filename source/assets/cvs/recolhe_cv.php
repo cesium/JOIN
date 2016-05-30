@@ -28,7 +28,7 @@ $ficheiro_log_cv="cv_join2016.csv";
 
 
 // obter dados do formulario
-$numero = $_POST['numero'];
+$email = $_POST['email'];
 $nome = $_POST['nome'];
 $ficheiro_cv = $_POST['ficheiro_cv'];
 
@@ -36,9 +36,9 @@ $mensagem='';
 $mensagem_log='Faltam preencher os campos:';
 
 // confirmar que os campos necessarios foram preenchidos
-if ($numero=='') {
-	$mensagem='<h4>Error: É necessário preencher o campo <b>número</b>!</h4>';
-	$mensagem_log .= ">número";
+if ($email=='') {
+	$mensagem='<h4>Error: É necessário preencher o campo <b>email</b>!</h4>';
+	$mensagem_log .= ">email";
     	$flag=1;
 }
 if ($nome=='') {
@@ -90,13 +90,13 @@ $reference=uniqid(true);
 // guardar os ficheiros de upload
 $filename = $_FILES['ficheiro_cv']['name'];
 $ext = pathinfo($filename, PATHINFO_EXTENSION);
-$target_cv = $caminho . "uploads/" . "cv_" . "aluno_" . $numero . "_" . $reference . ".$ext";
-$nome_ficheiro_cv="cv_" . "aluno_" . $numero . "_" . $reference . ".$ext";
+$target_cv = $caminho . "uploads/" . "cv_" . "aluno_" . $email . "_" . $reference . ".$ext";
+$nome_ficheiro_cv="cv_" . "aluno_" . $email . "_" . $reference . ".$ext";
 
 $flag=0;
 if (move_uploaded_file($_FILES['ficheiro_cv']['tmp_name'], $target_cv)) {
 	$mensagem="Submissão do CV com sucesso";
-	$mensagem_log="$ipaddress,$reference,$numero,$nome,$nome_ficheiro_cv";
+	$mensagem_log="$ipaddress,$reference,$email,$nome,$nome_ficheiro_cv";
 	$data_log = date("M d Y H:i:s");
 	$ficheiro_csv = fopen($caminho . $ficheiro_log_cv,"a");
 	while (! flock($ficheiro_csv, LOCK_EX)) { // fazer o lock ao ficheiro
@@ -112,7 +112,7 @@ if (move_uploaded_file($_FILES['ficheiro_cv']['tmp_name'], $target_cv)) {
 	$ficheiro_csv = fopen($caminho . $ficheiro_log_cv_falhas,"a");
 	while (! flock($ficheiro_csv, LOCK_EX)) { // fazer o lock ao ficheiro
 	}
-	fwrite($ficheiro_csv,$data_log . ",$ipaddress,$numero,$zip, problemas a fazer upload do ficheiro\n");
+	fwrite($ficheiro_csv,$data_log . ",$ipaddress,$email,$zip, problemas a fazer upload do ficheiro\n");
 	flock($ficheiro_csv, LOCK_UN); // libertar lock
 	fclose($ficheiro_csv);
 }
@@ -148,5 +148,3 @@ exit(0);
 // fim da script
 ?>
                                                                                                                                                                                                                             339,2         Bot
-
-
