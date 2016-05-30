@@ -23,6 +23,8 @@
 }
 
 .sponsor img{
+  margin-bottom: 30px;
+  margin-left: 15px;
   -webkit-transition-duration: .4s;
   -moz-transition-duration: .4s;
   -o-transition-duration: .4s;
@@ -30,10 +32,12 @@
   background-color: #E7EBED;
 }
 
+/*
 .sponsor img:hover{
   opacity: 0;
   filter: alpha(opacity=0);
 }
+*/
 
 .event-title img {
   margin-top: 0.5em;
