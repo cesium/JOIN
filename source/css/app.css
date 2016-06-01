@@ -17,14 +17,22 @@
   padding-left: 0px;
 }
 
+.sponsors {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
 .sponsor {
+  margin: 25px 50px 25px 50px;
+  text-align: center;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.sponsor img{
-  margin-bottom: 30px;
-  margin-left: 15px;
+.sponsor img {
   -webkit-transition-duration: .4s;
   -moz-transition-duration: .4s;
   -o-transition-duration: .4s;
@@ -32,6 +40,18 @@
   background-color: #E7EBED;
   -webkit-filter: grayscale(1);
   filter: grayscale(1);
+}
+
+#gold .sponsor img {
+  max-width: 350px;
+}
+
+#silver .sponsor img {
+  max-width: 250px;
+}
+
+#bronze .sponsor img {
+  max-width: 150px;
 }
 
 .sponsor img:hover{
