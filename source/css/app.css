@@ -30,14 +30,14 @@
   -o-transition-duration: .4s;
   transition-duration: .4s;
   background-color: #E7EBED;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
 }
 
-/*
 .sponsor img:hover{
-  opacity: 0;
-  filter: alpha(opacity=0);
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
 }
-*/
 
 .event-title img {
   margin-top: 0.5em;
