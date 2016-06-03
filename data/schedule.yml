@@ -26,86 +26,64 @@
 #*************************
 days:
   - id: dayone
-    date: Junho 23
-    title: Internet of Things / Unmanned Aerial Vehicles (UAVs)
+    date: Junho 13
+    title: Intelligent Cloud
     text: >
-      O primeiro dia incide na "Internet das Coisas", "Wearables" e "UAVs" (vulgarmente conhecidos como "drones"), sobre os desafios técnicos e sociais perante a tendência de se ligar à rede cada vez mais objetos do quotidiano, num mercado de biliões de euros.
-    pdf: ./assets/programa.pdf
+      O primeiro dia incide na "Intelligent Cloud", sobre os desafios técnicos e sociais perante a tendência de se depender cada vez mais desta ferramenta.
     events:
       - time: '09:00'
-        icon: check
-        title: Acreditação
-      - time: '09:30'
         icon: chevron-circle-right
         title: Sessão de Abertura
         text: >
-          Sessão de abertura da edição deste ano. Será apresentado o calendário e os parceiros das JOIN.
-      - time: '10:00'
-        icon: microphone
-        title: UAVs
+          Sessão de abertura da edição deste ano. Será apresentado o calendário, parceiros e concursos das JOIN.
+      - time: '09:45'
+        icon: connectdevelop
+        title: Sessão
         speaker:
-          name: Alfredo Martins
-      - time: '11:00'
+          name: Outsystems
+      - time: '10:30'
         icon: coffee
         title: Coffee Break
-      - time: '11:15'
+      - time: '11:00'
         icon: microphone
-        title: From RFID to IOT
+        title: O Posicionamento do Ecommerce na Cloud
         speaker:
-          name: João Vilaça
-      - time: '12:00'
-        icon: microphone
-        title: Wearables e Integração No Que Nós Vestimos
+          name: BSOLUS - Rui Cruz
+      - time: '11:45'
+        icon: connectdevelop
+        title: KeyNote
         speaker:
-          name: André Catarino
-      - time: '12:45'
+          name: Microsoft - Luis Carvalho
+      - time: '12:30'
         icon: cutlery
         title: Almoço
       - time: '14:00'
         icon: connectdevelop
-        image: 'sponsors/itsector.png'
-        imagelink: 'http://www.itsector.pt/pt/web/homepage.aspx'
       - time: '14:30'
         icon: connectdevelop
-        image: 'sponsors/eurotux.png'
-        imagelink: 'http://eurotux.com'
       - time: '15:00'
         icon: coffee
         title: Coffee Break
       - time: '15:15'
         icon: connectdevelop
-        image: 'sponsors/wit.png'
-        imagelink: 'https://www.wit-software.com'
       - time: '15:35'
         icon: connectdevelop
-        image: 'sponsors/wintouch.png'
-        imagelink: 'http://cms.wintouch.pt'
       - time: '15:55'
         icon: connectdevelop
-        image: 'sponsors/i2s.png'
-        imagelink: 'http://www.i2s.pt/index/'
       - time: '16:15'
         icon: coffee
         title: Coffee Break
       - time: '16:30'
         icon: connectdevelop
-        image: 'sponsors/primavera.png'
-        imagelink: 'http://pt.primaverabss.com/pt/'
       - time: '16:50'
         icon: connectdevelop
-        image: 'sponsors/itgrow.png'
-        imagelink: 'http://www.itgrow.pt/pt/inicio'
       - time: '17:10'
         icon: connectdevelop
-        image: 'sponsors/inovaria.png'
-        imagelink: 'http://www.inova-ria.pt'
       - time: '17:30'
         icon: connectdevelop
-        image: 'sponsors/bold.png'
-        imagelink: 'http://www.boldint.com'
 
   - id: daytwo
-    date: Junho 25
+    date: Junho 14
     title: 40 Anos de Informática na UM
     pdf: ./assets/programa.pdf
     events:
@@ -129,12 +107,8 @@ days:
         title: Almoço
       - time: '14:00'
         icon: connectdevelop
-        image: 'sponsors/wedo.png'
-        imagelink: 'http://www.wedotechnologies.com/pt/'
       - time: '14:30'
         icon: connectdevelop
-        image: 'sponsors/accenture.png'
-        imagelink: 'http://www.accenture.com/us-en/pages/index.aspx'
         speaker:
           name: Sessão de Testes Psicotécnicos
           from: 'Sala DI-0.11 18:15H'
@@ -143,36 +117,24 @@ days:
         title: Coffee Break
       - time: '15:35'
         icon: connectdevelop
-        image: 'sponsors/itim.png'
-        imagelink: 'http://www.itim.com'
       - time: '15:55'
         icon: connectdevelop
-        image: 'sponsors/farfetch.png'
-        imagelink: 'http://www.farfetch.com/pt/'
       - time: '16:15'
         icon: coffee
         title: Coffee Break
       - time: '16:30'
         icon: connectdevelop
-        image: 'sponsors/glintt.png'
-        imagelink: 'http://www.glintt.com'
       - time: '16:50'
         icon: connectdevelop
-        image: 'sponsors/creativesystems.png'
-        imagelink: 'http://www.creativesystems.eu'
       - time: '17:10'
         icon: connectdevelop
-        image: 'sponsors/outsystems.png'
-        imagelink: 'http://www.outsystems.com'
       - time: '17:30'
         icon: connectdevelop
-        image: 'sponsors/xpandit.png'
-        imagelink: 'http://www.xpand-it.com/en/'
         text: >
           A Xpand IT é uma empresa global, especialista no planeamento estratégico, consultoria, implementação e manutenção de software empresarial, totalmente adaptado às necessidades de cada cliente. Com uma vasta oferta de serviços e produtos, e uma postura transparente e de cooperação com clientes espalhados pelos 5 continentes, a Xpand IT é hoje reconhecida pelo seu profundo conhecimento tecnológico e “Paixão pela Excelência".
 
   - id: daythree
-    date: Junho 26
+    date: Junho 15
     title: Novas Linguagens de Programação
     pdf: ./assets/programa.pdf
     events:
@@ -214,43 +176,27 @@ days:
         title: Almoço
       - time: '14:00'
         icon: connectdevelop
-        image: 'sponsors/ano.png'
-        imagelink: 'http://www.ano.pt'
       - time: '14:30'
         icon: connectdevelop
-        image: 'sponsors/blip.png'
-        imagelink: 'http://www.blip.pt'
       - time: '15:00'
         icon: coffee
         title: Coffee Break
       - time: '15:15'
         icon: connectdevelop
-        image: 'sponsors/vilt.png'
-        imagelink: 'https://www.vilt-group.com/pt/'
       - time: '15:35'
         icon: connectdevelop
-        # image: 'sponsors/creativesystems.png'
         title: WAVEFORM
-        imagelink: 'http://www.waveform.pt'
       - time: '15:55'
         icon: connectdevelop
-        image: 'sponsors/cgi.png'
-        imagelink: 'http://www.cgi.com.pt'
       - time: '16:15'
         icon: coffee
         title: Coffee Break
       - time: '16:30'
         icon: connectdevelop
-        image: 'sponsors/caravela.png'
-        imagelink: 'http://www.caravelaseguros.pt/'
       - time: '16:50'
         icon: connectdevelop
-        image: 'sponsors/pepfeed.png'
-        imagelink: 'http://www.pepfeed.com/pt'
       - time: '17:10'
         icon: connectdevelop
-        image: 'sponsors/eticadata.png'
-        imagelink: 'https://pt.eticadata.com'
       - time: '20:30'
         icon: star
         title: Jantar de Encerramento
