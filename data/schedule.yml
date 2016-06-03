@@ -49,6 +49,8 @@ days:
         title: O Posicionamento do Ecommerce na Cloud
         speaker:
           name: BSOLUS - Rui Cruz
+          text:>
+           A quantidade de informação transaccionada Através dos canais B2C , B2B e B2E Online, é de tal forma crucial que sem estes portais, muitas empresas paravam a sua produção. Com esta sessão pretendemos explicar qual é esta informação e os desafios que esta área tem no futuro. Serão apresentadas as saídas profissionais numa carreira de Ecommerce, que se mostra cada vez mais a área em mais rápida expansão nas tecnologias de informação.
       - time: '11:45'
         icon: connectdevelop
         title: KeyNote
@@ -58,82 +60,242 @@ days:
         icon: cutlery
         title: Almoço
       - time: '14:00'
+        icon: 
+        title: 
+        speaker:
+          name: EuroTux- 
+      - time: '14:45'
         icon: connectdevelop
-      - time: '14:30'
-        icon: connectdevelop
-      - time: '15:00'
+      - time: '15:30'
         icon: coffee
         title: Coffee Break
-      - time: '15:15'
-        icon: connectdevelop
-      - time: '15:35'
-        icon: connectdevelop
-      - time: '15:55'
-        icon: connectdevelop
-      - time: '16:15'
+      - time: '16:00'
+        icon: 
+        title: Software Engineering Workflow
+        speaker:
+          name: Vilt - 
+        text: >
+         Development, Tooling, Continuous Integration, Testing, Deploying e Devops: O exemplo das equipas da VILT e dos seus ciclos de desenvolvimento
+      - time: '16:45'
         icon: coffee
         title: Coffee Break
-      - time: '16:30'
-        icon: connectdevelop
-      - time: '16:50'
-        icon: connectdevelop
+      - time: '17:00'
+        icon: 
+        title: 
+        speaker:
+          name: Invine -
       - time: '17:10'
-        icon: connectdevelop
+        icon: 
+        title: 
+        speaker:
+          name: IT Grow -
+      - time: '17:20'
+        icon: 
+        title: Konk Consulting
+        speaker:
+          name:  -
       - time: '17:30'
-        icon: connectdevelop
+        icon: 
+        title: Bosh Car Multimedia
+        speaker:
+          name: Bosh -
+
+
+
 
   - id: daytwo
     date: Junho 14
     title: 40 Anos de Informática na UM
     pdf: ./assets/programa.pdf
     events:
-      - time: '09:00'
-        icon: terminal
-        title: Business Intelligence
-        speaker:
-          name: Tiago Ferreira
-          from:  Xpand IT
-      - time: '10:00'
-        icon: comments-o
-        title: 40 Anos de Informática na UMinho
-      - time: '11:00'
+      - time: '09:45'
+        icon: 
+        title: Segurança Informática no Mundo Real
+        speaker: Miguel Regala
+          name: Miguel Regala
+          from:  Blip
+        text: >
+        Uma breve introdução a segurança informática, sobretudo aplicacional. O que são hackers? Desmitificação, casos reais vs ficção. Quais as principais falhas que encontramos na Web e como os atacantes tiram partido disso. Contextualizar problemas numa grande empresa que gera milhões em apostas onde qualquer erro de segurança pode ser fatal. O elo mais fraco, reputação e perceção.
+      - time: '10:30'
         icon: coffee
         title: Coffee Break
-      - time: '11:15'
-        icon: comments
-        title: Informática - Perspectivas de Futuro
-      - time: '12:45'
+      - time: '11:00'
+        icon: 
+        title: Information Security what?!
+        speaker: Lúcio Guerra
+          name: Lúcio Guerra
+          from:  Farfetch
+        text: >
+        How often are we attacked?! Every single DAY! What are our challenges and concerns as a global e-commerce site providing excellence services to a worldwide range of clients? What type of threats are we exposed to and what do we do to prevent them? In this session we will be able to address these questions in light of our business at Farfetch. Com que frequência somos atacados?! TODOS os dias! Quais as nossas preocupações enquanto empresa e-commerce global que fornece serviços de excelência a uma variedade de clientes à escala mundial? A que tipo de ameaças estamos expostos e de que forma nos prevenimos? Nesta sessão iremos abordar estas questões à luz da nossa realidade na Farfetch.
+      - time: '11:45'
+        icon: 
+        title: Competitive Intelligence & Information Warfare Association
+        speaker: Tenente Coronel Paulo Nunes
+          name: Tenente Coronel Paulo Nunes
+          from:   Academia Militar/CIIWA
+      - time: '12:30'
         icon: cutlery
         title: Almoço
       - time: '14:00'
-        icon: connectdevelop
-      - time: '14:30'
-        icon: connectdevelop
-        speaker:
-          name: Sessão de Testes Psicotécnicos
-          from: 'Sala DI-0.11 18:15H'
-      - time: '15:00'
+        icon: 
+        title: Cyber Security
+        speaker:  João Gil 
+          name:  João Gil 
+          from:  IT Sector 
+        text: >
+         Apresentação de conceitos gerais de Segurança de Sistemas de Informação, através da abordagem de temas como a contextualização da Segurança nos Sistemas de Informação, introdução às primitivas criptográficas, exploração de conceitos de programação segura e análise e reconhecimento de erros de implementação de primitivas criptográficas.
+      - time: '14:45'
+        icon: 
+        title: 
+        speaker:  David Sopas 
+          name:  David Sopas
+          from:
+      - time: '15:30'
         icon: coffee
         title: Coffee Break
-      - time: '15:35'
-        icon: connectdevelop
-      - time: '15:55'
-        icon: connectdevelop
-      - time: '16:15'
+      - time: '16:00'
+        icon: 
+        title: Secure Coding - Best Practices
+        speaker:  Fernando Silva
+          name:  Fernando Silva
+          from: Critical Manufacturing
+        text: >
+        Presentation on how to successfully implement code resistant to attack by malicious or mischievous people or programs. Topics to be approached: Software Security Principles Overview -  Secure Coding Practices - Sources of Software Insecurity
+      - time: '16:45'
         icon: coffee
         title: Coffee Break
-      - time: '16:30'
-        icon: connectdevelop
-      - time: '16:50'
-        icon: connectdevelop
+      - time: '17:00'
+        icon: 
+        title: 
+        speaker:  
+          name:  
+          from: Primavera
       - time: '17:10'
-        icon: connectdevelop
+        icon: 
+        title: 
+        speaker:  
+          name:  
+          from: Checkmarx
       - time: '17:30'
         icon: connectdevelop
         text: >
           A Xpand IT é uma empresa global, especialista no planeamento estratégico, consultoria, implementação e manutenção de software empresarial, totalmente adaptado às necessidades de cada cliente. Com uma vasta oferta de serviços e produtos, e uma postura transparente e de cooperação com clientes espalhados pelos 5 continentes, a Xpand IT é hoje reconhecida pelo seu profundo conhecimento tecnológico e “Paixão pela Excelência".
 
+
+
+
+
+
+
   - id: daythree
+    date: Junho 15
+    title: Novas Linguagens de Programação
+    pdf: ./assets/programa.pdf
+    events:
+      - time: '09:00'
+        icon: 
+        title: 
+        speaker: Miguel Rocha
+          name: Miguel Rocha
+          from: DI
+      - time: '09:45'
+        icon: 
+        title:
+        text: 
+        speaker:
+          name:
+      - time: '10:30'
+        icon: coffee
+        title: Coffee Break
+      - time: '11:00'
+        icon: 
+        title: ANO
+        speaker:
+          name:
+      - time: '11:45'
+        icon: 
+        title: 
+        speaker: Miguel Rocha
+          name: Miguel Rocha
+          from: DI
+      - time: '12:45'
+        icon: cutlery
+        title: Almoço
+      - time: '14:00'
+        icon: 
+        title: 
+        speaker: 
+          name: 
+          from: wedo
+      - time: '14:45'
+        icon: 
+        title: Tertulia
+        speaker: Nuno Sousa,...
+          name: Nuno Sousa,...
+          from: 
+      - time: '15:30'
+        icon: coffee
+        title: Coffee Break
+      - time: '16:00'
+        icon: 
+        title: Business Intelligence: Doing some magic with Pentaho and Tableau
+        speaker:  Boris Tchikoulaev 
+          name:  Boris Tchikoulaev 
+          from: Xpand-it 
+      - time: '16:45'
+        icon: coffee
+        title: Coffee Break
+      - time: '17:00'
+        icon: 
+        title: Dellent Consulting
+        speaker:  
+          name:  
+          from: 
+      - time: '17:10'
+        icon: 
+        title: Bold Internacional
+        speaker:  
+          name:  
+          from: 
+      - time: '17:20'
+        icon: 
+        title: Bit Sonae
+        speaker:  
+          name:  
+          from: 
+      - time: '20:30'
+        icon: star
+        title: Jantar de Encerramento
+        speaker:
+          name:
+          from: Museu D. Diogo de Sousa
+        text: >
+          <p>10€ Aluno | 15€ Docente.</p>
+          <p>O pagamento da inscrição no Jantar poderá ser feito através de transferência bancária (0035 0823 0000 9251 8309 3) ou no decorrer das jornadas. O comprovativo da transferência deverá ser enviado para necc@di.uminho.pt.</p>
+          <p><a href="http://join2015.eventbrite.com">Inscreve-te aqui!</a></p>
+  - id: dayfour
+    date: Junho 27
+    title: CoderDojo Minho
+    text: >
+      O <a href="http://www.cesium.di.uminho.pt/tags/coderdojo"><span class="external-link">CoderDojo Minho</span></a> é um movimento aberto e sem fins lucrativos para ensinar jovens dos 7 aos 17 a programar. Com a ajuda de membros ativos da comunidade, os mais novos têm a oportunidade de entrar em contacto com o mundo da programação. <bold>Inscreve-te <a href="https://coderdojo-minho.typeform.com/to/SrSgBI"><span class="external-link">aqui</span></a>.</bold>
+    events:
+      - time: '10:00'
+        icon: users
+        title: coderdojo
+        speaker:
+          name:
+          from: Departamento de Informática - Sala 0.02
+
+
+
+
+
+
+
+
+
+
+  - id: daythreebackup
     date: Junho 15
     title: Novas Linguagens de Programação
     pdf: ./assets/programa.pdf
