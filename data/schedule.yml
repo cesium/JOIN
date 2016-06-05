@@ -190,7 +190,7 @@ days:
         icon: cutlery
         title: Almoço
       - time: '14:00'
-        icon:
+        icon: connectdevelop
         title: TBA
         speaker:
           from: WeDo Technologies
