@@ -28,6 +28,7 @@ days:
   - id: dayone
     date: Junho 13
     title: Intelligent Cloud
+    pdf: ./assets/programa.pdf
     text: >
       O primeiro dia incide na "Intelligent Cloud", sobre os desafios técnicos e sociais perante a tendência de se depender cada vez mais desta ferramenta.
     events:
@@ -40,32 +41,40 @@ days:
         icon: connectdevelop
         title: Sessão
         speaker:
-          name: Outsystems
+          name: TBA
+          from: Outsystems
       - time: '10:30'
         icon: coffee
         title: Coffee Break
       - time: '11:00'
         icon: microphone
         title: O Posicionamento do Ecommerce na Cloud
-        speaker:
-          name: BSOLUS - Rui Cruz
-          text: >
+        text: >
            A quantidade de informação transaccionada Através dos canais B2C , B2B e B2E Online, é de tal forma crucial que sem estes portais, muitas empresas paravam a sua produção. Com esta sessão pretendemos explicar qual é esta informação e os desafios que esta área tem no futuro. Serão apresentadas as saídas profissionais numa carreira de Ecommerce, que se mostra cada vez mais a área em mais rápida expansão nas tecnologias de informação.
+        speaker:
+          name: Rui Cruz
+          from: BSOLUS
       - time: '11:45'
         icon: connectdevelop
         title: KeyNote
         speaker:
-          name: Microsoft - Luis Carvalho
+          name: Luis Carvalho
+          from: Microsoft
       - time: '12:30'
         icon: cutlery
         title: Almoço
       - time: '14:00'
         icon:
-        title:
+        title: TBA
         speaker:
-          name: EuroTux-
+          name: TBA
+          from: EuroTux
       - time: '14:45'
+        title: TBA
         icon: connectdevelop
+        speaker:
+          name: TBA
+          from: TBA
       - time: '15:30'
         icon: coffee
         title: Coffee Break
@@ -73,7 +82,8 @@ days:
         icon:
         title: Software Engineering Workflow
         speaker:
-          name: Vilt -
+          name: TBA
+          from: Vilt
         text: >
          Development, Tooling, Continuous Integration, Testing, Deploying e Devops: O exemplo das equipas da VILT e dos seus ciclos de desenvolvimento
       - time: '16:45'
@@ -81,24 +91,28 @@ days:
         title: Coffee Break
       - time: '17:00'
         icon:
-        title:
+        title: TBA
         speaker:
-          name: Invine -
+          name: TBA
+          from: Invine
       - time: '17:10'
         icon:
-        title:
+        title: TBA
         speaker:
-          name: IT Grow -
+          name: TBA
+          from: IT Grow
       - time: '17:20'
         icon:
-        title:
+        title: TBA
         speaker:
-          name: Konk Consulting -
+          name: TBA
+          from: Konk Consulting
       - time: '17:30'
         icon:
         title: Bosh Car Multimedia
         speaker:
-          name: Bosh -
+          name: TBA
+          from: Bosh
 
 
 
@@ -146,10 +160,10 @@ days:
          Apresentação de conceitos gerais de Segurança de Sistemas de Informação, através da abordagem de temas como a contextualização da Segurança nos Sistemas de Informação, introdução às primitivas criptográficas, exploração de conceitos de programação segura e análise e reconhecimento de erros de implementação de primitivas criptográficas.
       - time: '14:45'
         icon:
-        title:
+        title: TBA
         speaker:
           name:  David Sopas
-          from:
+          from: TBA
       - time: '15:30'
         icon: coffee
         title: Coffee Break
@@ -166,18 +180,22 @@ days:
         title: Coffee Break
       - time: '17:00'
         icon:
-        title:
-        speaker:
-          name:
+        title: TBA
+        speaker: 
+          name: TBA
           from: Primavera
       - time: '17:10'
         icon:
-        title:
+        title: TBA
         speaker:
-          name:
+          name: TBA
           from: Checkmarx
       - time: '17:30'
         icon: connectdevelop
+        title: TBA
+        speaker:
+          name: TBA
+          from: Xpand-it
         text: >
           A Xpand IT é uma empresa global, especialista no planeamento estratégico, consultoria, implementação e manutenção de software empresarial, totalmente adaptado às necessidades de cada cliente. Com uma vasta oferta de serviços e produtos, e uma postura transparente e de cooperação com clientes espalhados pelos 5 continentes, a Xpand IT é hoje reconhecida pelo seu profundo conhecimento tecnológico e “Paixão pela Excelência".
 
@@ -189,16 +207,17 @@ days:
     events:
       - time: '09:00'
         icon:
-        title:
+        title: TBA
         speaker:
           name: Miguel Rocha
           from: DI
       - time: '09:45'
         icon:
-        title:
+        title: TBA
         text:
         speaker:
-          name:
+          name: TBA
+          from: TBA
       - time: '10:30'
         icon: coffee
         title: Coffee Break
@@ -206,28 +225,29 @@ days:
         icon:
         title: ANO
         speaker:
-          name:
+          name: TBA
+          form: TBA
       - time: '11:45'
         icon:
-        title:
+        title: TBA
         speaker:
-          name: Miguel Rocha
-          from: DI
+          name:  TBA
+          from:  TBA
       - time: '12:45'
         icon: cutlery
         title: Almoço
       - time: '14:00'
         icon:
-        title:
+        title: TBA
         speaker:
-          name:
+          name:  TBA
           from: wedo
       - time: '14:45'
         icon:
         title: Tertulia
         speaker:
-          name: Nuno Sousa,...
-          from:
+          name: Nuno Sousa...
+          from: TBA
       - time: '15:30'
         icon: coffee
         title: Coffee Break
@@ -244,43 +264,29 @@ days:
         icon:
         title: Dellent Consulting
         speaker:
-          name:
-          from:
+          name: TBA
+          from: TBA
       - time: '17:10'
         icon:
         title: Bold Internacional
         speaker:
-          name:
-          from:
+          name: TBA
+          from: TBA
       - time: '17:20'
         icon:
         title: Bit Sonae
         speaker:
-          name:
-          from:
+          name: TBA
+          from: TBA
       - time: '20:30'
         icon: star
         title: Jantar de Encerramento
         speaker:
-          name:
-          from: Museu D. Diogo de Sousa
+          name: Museu D. Diogo de Sousa
         text: >
           <p>10€ Aluno | 15€ Docente.</p>
           <p>O pagamento da inscrição no Jantar poderá ser feito através de transferência bancária (0035 0823 0000 9251 8309 3) ou no decorrer das jornadas. O comprovativo da transferência deverá ser enviado para necc@di.uminho.pt.</p>
           <p><a href="http://join2015.eventbrite.com">Inscreve-te aqui!</a></p>
-  - id: dayfour
-    date: Junho 27
-    title: CoderDojo Minho
-    text: >
-      O <a href="http://www.cesium.di.uminho.pt/tags/coderdojo"><span class="external-link">CoderDojo Minho</span></a> é um movimento aberto e sem fins lucrativos para ensinar jovens dos 7 aos 17 a programar. Com a ajuda de membros ativos da comunidade, os mais novos têm a oportunidade de entrar em contacto com o mundo da programação. <bold>Inscreve-te <a href="https://coderdojo-minho.typeform.com/to/SrSgBI"><span class="external-link">aqui</span></a>.</bold>
-    events:
-      - time: '10:00'
-        icon: users
-        title: coderdojo
-        speaker:
-          name:
-          from: Departamento de Informática - Sala 0.02
-
   - id: dayfour
     date: Junho 27
     title: CoderDojo Minho
