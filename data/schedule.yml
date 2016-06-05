@@ -92,9 +92,11 @@ days:
         icon: hourglass-start
         image: sponsors/bronze/konk.png
       - time: '17:30'
-        icon: hourglass-start
-        image: sponsors/bronze/bosch-alt.png
-
+        icon: connectdevelop
+        title: TBA
+        speaker:
+          from: Bosch Multimedia
+          
   - id: daytwo
     date: Junho 14
     title: Computer Security
