@@ -93,7 +93,7 @@ days:
         image: sponsors/bronze/konk.png
       - time: '17:30'
         icon: hourglass-start
-        image: sponsors/bronze/bosch.png
+        image: sponsors/bronze/bosch-alt.png
 
   - id: daytwo
     date: Junho 14
