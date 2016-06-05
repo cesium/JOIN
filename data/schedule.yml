@@ -28,7 +28,6 @@ days:
   - id: dayone
     date: Junho 13
     title: Intelligent Cloud
-    pdf: ./assets/programa.pdf
     text: >
       O primeiro dia incide na "Intelligent Cloud", sobre os desafios técnicos e sociais perante a tendência de se depender cada vez mais desta ferramenta.
     events:
@@ -39,15 +38,14 @@ days:
           Sessão de abertura da edição deste ano. Será apresentado o calendário, parceiros e concursos das JOIN.
       - time: '09:45'
         icon: connectdevelop
-        title: Sessão
+        title: TBA
         speaker:
-          name: TBA
           from: Outsystems
       - time: '10:30'
         icon: coffee
         title: Coffee Break
       - time: '11:00'
-        icon: microphone
+        icon: connectdevelop
         title: O Posicionamento do Ecommerce na Cloud
         text: >
            A quantidade de informação transaccionada Através dos canais B2C , B2B e B2E Online, é de tal forma crucial que sem estes portais, muitas empresas paravam a sua produção. Com esta sessão pretendemos explicar qual é esta informação e os desafios que esta área tem no futuro. Serão apresentadas as saídas profissionais numa carreira de Ecommerce, que se mostra cada vez mais a área em mais rápida expansão nas tecnologias de informação.
@@ -55,7 +53,7 @@ days:
           name: Rui Cruz
           from: BSOLUS
       - time: '11:45'
-        icon: connectdevelop
+        icon: microphone
         title: KeyNote
         speaker:
           name: Luis Carvalho
@@ -64,66 +62,45 @@ days:
         icon: cutlery
         title: Almoço
       - time: '14:00'
-        icon:
+        icon: connectdevelop
         title: TBA
         speaker:
-          name: TBA
           from: EuroTux
       - time: '14:45'
         title: TBA
-        icon: connectdevelop
-        speaker:
-          name: TBA
-          from: TBA
+        icon: microphone
       - time: '15:30'
         icon: coffee
         title: Coffee Break
       - time: '16:00'
-        icon:
+        icon: connectdevelop
         title: Software Engineering Workflow
         speaker:
-          name: TBA
           from: Vilt
         text: >
          Development, Tooling, Continuous Integration, Testing, Deploying e Devops: O exemplo das equipas da VILT e dos seus ciclos de desenvolvimento
       - time: '16:45'
         icon: coffee
         title: Coffee Break
-      - time: '17:00'
-        icon:
-        title: TBA
-        speaker:
-          name: TBA
-          from: Invine
       - time: '17:10'
-        icon:
-        title: TBA
-        speaker:
-          name: TBA
-          from: IT Grow
+        icon: hourglass-start
+        image: sponsors/bronze/invine.png
+      - time: '17:10'
+        icon: hourglass-start
+        image: sponsors/bronze/itgrow.png
       - time: '17:20'
-        icon:
-        title: TBA
-        speaker:
-          name: TBA
-          from: Konk Consulting
+        icon: hourglass-start
+        image: sponsors/bronze/konk.png
       - time: '17:30'
-        icon:
-        title: Bosh Car Multimedia
-        speaker:
-          name: TBA
-          from: Bosh
-
-
-
+        icon: hourglass-start
+        image: sponsors/bronze/bosch.png
 
   - id: daytwo
     date: Junho 14
-    title: 40 Anos de Informática na UM
-    pdf: ./assets/programa.pdf
+    title: Computer Security
     events:
       - time: '09:45'
-        icon:
+        icon: connectdevelop
         title: Segurança Informática no Mundo Real
         speaker:
           name: Miguel Regala
@@ -134,7 +111,7 @@ days:
         icon: coffee
         title: Coffee Break
       - time: '11:00'
-        icon:
+        icon: connectdevelop
         title: Information Security what?!
         speaker:
           name: Lúcio Guerra
@@ -142,16 +119,16 @@ days:
         text: >
           How often are we attacked?! Every single DAY! What are our challenges and concerns as a global e-commerce site providing excellence services to a worldwide range of clients? What type of threats are we exposed to and what do we do to prevent them? In this session we will be able to address these questions in light of our business at Farfetch. Com que frequência somos atacados?! TODOS os dias! Quais as nossas preocupações enquanto empresa e-commerce global que fornece serviços de excelência a uma variedade de clientes à escala mundial? A que tipo de ameaças estamos expostos e de que forma nos prevenimos? Nesta sessão iremos abordar estas questões à luz da nossa realidade na Farfetch.
       - time: '11:45'
-        icon:
+        icon: microphone
         title: Competitive Intelligence & Information Warfare Association
         speaker:
           name: Tenente Coronel Paulo Nunes
-          from:   Academia Militar/CIIWA
+          from: Academia Militar/CIIWA
       - time: '12:30'
         icon: cutlery
         title: Almoço
       - time: '14:00'
-        icon:
+        icon: connectdevelop
         title: Cyber Security
         speaker:
           name:  João Gil
@@ -159,80 +136,56 @@ days:
         text: >
          Apresentação de conceitos gerais de Segurança de Sistemas de Informação, através da abordagem de temas como a contextualização da Segurança nos Sistemas de Informação, introdução às primitivas criptográficas, exploração de conceitos de programação segura e análise e reconhecimento de erros de implementação de primitivas criptográficas.
       - time: '14:45'
-        icon:
-        title: TBA
+        icon: microphone
+        title: Hacking - From Black to White!
         speaker:
           name:  David Sopas
-          from: TBA
+          from: Checkmarx
       - time: '15:30'
         icon: coffee
         title: Coffee Break
       - time: '16:00'
-        icon:
+        icon: connectdevelop
         title: Secure Coding - Best Practices
         speaker:
           name:  Fernando Silva
-          from: Critical Manufacturing
+          from: Critical Software
         text: >
           Presentation on how to successfully implement code resistant to attack by malicious or mischievous people or programs. Topics to be approached: Software Security Principles Overview -  Secure Coding Practices - Sources of Software Insecurity
       - time: '16:45'
         icon: coffee
         title: Coffee Break
       - time: '17:00'
-        icon:
-        title: TBA
-        speaker: 
-          name: TBA
-          from: Primavera
+        icon: hourglass-start
+        image: sponsors/bronze/primavera.png
       - time: '17:10'
-        icon:
-        title: TBA
-        speaker:
-          name: TBA
-          from: Checkmarx
-      - time: '17:30'
-        icon: connectdevelop
-        title: TBA
-        speaker:
-          name: TBA
-          from: Xpand-it
-        text: >
-          A Xpand IT é uma empresa global, especialista no planeamento estratégico, consultoria, implementação e manutenção de software empresarial, totalmente adaptado às necessidades de cada cliente. Com uma vasta oferta de serviços e produtos, e uma postura transparente e de cooperação com clientes espalhados pelos 5 continentes, a Xpand IT é hoje reconhecida pelo seu profundo conhecimento tecnológico e “Paixão pela Excelência".
-
+        icon: hourglass-start
+        image: sponsors/bronze/checkmarx.png
 
   - id: daythree
     date: Junho 15
-    title: Novas Linguagens de Programação
-    pdf: ./assets/programa.pdf
+    title: MedTech
     events:
       - time: '09:00'
-        icon:
+        icon: connectdevelop
         title: TBA
         speaker:
           name: Miguel Rocha
           from: DI
       - time: '09:45'
-        icon:
+        icon: connectdevelop
         title: TBA
-        text:
-        speaker:
-          name: TBA
-          from: TBA
       - time: '10:30'
         icon: coffee
         title: Coffee Break
       - time: '11:00'
-        icon:
-        title: ANO
-        speaker:
-          name: TBA
-          form: TBA
-      - time: '11:45'
-        icon:
+        icon: connectdevelop
         title: TBA
         speaker:
-          name:  TBA
-          from:  TBA
+          from: ANO Software
+      - time: '11:45'
+        icon: microphone
+        title: TBA
       - time: '12:45'
         icon: cutlery
         title: Almoço
@@ -240,44 +193,33 @@ days:
         icon:
         title: TBA
         speaker:
-          name:  TBA
-          from: wedo
+          from: WeDo Technologies
       - time: '14:45'
-        icon:
-        title: Tertulia
+        icon: users
+        title: Tertúlia
         speaker:
-          name: Nuno Sousa...
-          from: TBA
+          name: Professor Nuno Sousa, João Martins
       - time: '15:30'
         icon: coffee
         title: Coffee Break
       - time: '16:00'
-        icon:
+        icon: connectdevelop
         title: Business Intelligence - Doing some magic with Pentaho and Tableau
         speaker:
           name:  Boris Tchikoulaev
-          from: Xpand-it
+          from: Xpand IT
       - time: '16:45'
         icon: coffee
         title: Coffee Break
       - time: '17:00'
-        icon:
-        title: Dellent Consulting
-        speaker:
-          name: TBA
-          from: TBA
+        icon: hourglass-start
+        image: sponsors/bronze/dellent.png
       - time: '17:10'
-        icon:
-        title: Bold Internacional
-        speaker:
-          name: TBA
-          from: TBA
+        icon: hourglass-start
+        image: sponsors/bronze/bold/bold.png
       - time: '17:20'
-        icon:
-        title: Bit Sonae
-        speaker:
-          name: TBA
-          from: TBA
+        icon: hourglass-start
+        image: sponsors/bronze/sonae.png
       - time: '20:30'
         icon: star
         title: Jantar de Encerramento
@@ -286,12 +228,13 @@ days:
         text: >
           <p>10€ Aluno | 15€ Docente.</p>
           <p>O pagamento da inscrição no Jantar poderá ser feito através de transferência bancária (0035 0823 0000 9251 8309 3) ou no decorrer das jornadas. O comprovativo da transferência deverá ser enviado para necc@di.uminho.pt.</p>
-          <p><a href="http://join2015.eventbrite.com">Inscreve-te aqui!</a></p>
+          <p><a href="https://www.eventbrite.pt/e/registo-join2016-jornadas-de-informatica-da-universidade-do-minho-25765250558?ref=elink">Inscreve-te aqui!</a></p>
+
   - id: dayfour
-    date: Junho 27
+    date: Junho 11
     title: CoderDojo Minho
     text: >
-      O <a href="http://www.cesium.di.uminho.pt/tags/coderdojo"><span class="external-link">CoderDojo Minho</span></a> é um movimento aberto e sem fins lucrativos para ensinar jovens dos 7 aos 17 a programar. Com a ajuda de membros ativos da comunidade, os mais novos têm a oportunidade de entrar em contacto com o mundo da programação. <bold>Inscreve-te <a href="https://coderdojo-minho.typeform.com/to/SrSgBI"><span class="external-link">aqui</span></a>.</bold>
+      O <a href="https://www.facebook.com/CoderdojoMinho"><span class="external-link">CoderDojo Minho</span></a> é um movimento aberto e sem fins lucrativos para ensinar jovens dos 7 aos 17 a programar. Com a ajuda de membros ativos da comunidade, os mais novos têm a oportunidade de entrar em contacto com o mundo da programação. <bold>Inscreve-te <a href="https://zen.coderdojo.com/dojo/pt/braga/braga/braga-minho-1"><span class="external-link">aqui</span></a>.</bold>
     events:
       - time: '10:00'
         icon: users
