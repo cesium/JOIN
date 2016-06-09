@@ -184,10 +184,12 @@ days:
         image: sponsors/bronze/oracle.png
       - time: '17:30'
         icon: hourglass-start
-        image: sponsors/bronze/winprovit.png
+        speaker:
+          name: WinProvit
       - time: '17:40'
         icon: hourglass-start
-        image: sponsors/bronze/logic.png
+        speaker: 
+          name: Logic Information Systems
 
   - id: daythree
     date: Junho 15
