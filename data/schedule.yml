@@ -38,7 +38,7 @@ days:
           Sessão de abertura da edição deste ano. Será apresentado o calendário, parceiros e concursos das JOIN.
       - time: '09:45'
         icon: connectdevelop
-        title: TBA
+        title: Sessão Técnica
         speaker:
           from: Outsystems
       - time: '10:30'
@@ -54,7 +54,7 @@ days:
           from: BSOLUS
       - time: '11:45'
         icon: microphone
-        title: KeyNote
+        title: Acelerar a transformação digital com o poder da cloud
         speaker:
           name: Luis Carvalho
           from: Microsoft
@@ -63,12 +63,15 @@ days:
         title: Almoço
       - time: '14:00'
         icon: connectdevelop
-        title: TBA
+        title: Sessão Técnica
         speaker:
           from: EuroTux
       - time: '14:45'
-        title: TBA
+        title: Keynote
         icon: microphone
+        speaker:
+          name: Alex Leverington
+          from: Ethereum
       - time: '15:30'
         icon: coffee
         title: Coffee Break
@@ -87,26 +90,37 @@ days:
         image: sponsors/bronze/invine.png
       - time: '17:10'
         icon: hourglass-start
-        image: sponsors/bronze/itgrow.png
+        image: sponsors/bronze/critical-itgrow.png
       - time: '17:20'
         icon: hourglass-start
         image: sponsors/bronze/konk.png
       - time: '17:30'
+        icon: hourglass-start
+        image: sponsors/bronze/bold/bold.png
+      - time: '17:40'
         icon: connectdevelop
-        title: TBA
+        title: Sessão Técnica
         speaker:
           from: Bosch Multimedia
-          
+
   - id: daytwo
     date: Junho 14
     title: Computer Security
     events:
+      - time: '09:00'
+        icon: connectdevelop
+        title: Data protection in critical systems
+        speaker:
+          name: Nélio Guimarães
+        text: >
+          We are in the midst of the Information Age and data is being gather from all kinds of devices and sources.
+          Cloud base applications are nowadays the primary data source. Analysts estimate that the global cloud computing market revenue is forecast to grow 22 percent annually to US$241 billion by 2020. However from the consumers perspective could security, protection and privacy remain the primary inhibitors for adoption of cloud based services. Such inevitable reaction brings about a lot of several concerns. How far is the line between business information and consumers data? How should companies deal with consumers data and how to assure privacy?
       - time: '09:45'
         icon: connectdevelop
         title: Segurança Informática no Mundo Real
         speaker:
           name: Miguel Regala
-          from:  Blip
+          from: Blip
         text: >
           Uma breve introdução a segurança informática, sobretudo aplicacional. O que são hackers? Desmitificação, casos reais vs ficção. Quais as principais falhas que encontramos na Web e como os atacantes tiram partido disso. Contextualizar problemas numa grande empresa que gera milhões em apostas onde qualquer erro de segurança pode ser fatal. O elo mais fraco, reputação e perceção.
       - time: '10:30'
@@ -117,12 +131,12 @@ days:
         title: Information Security what?!
         speaker:
           name: Lúcio Guerra
-          from:  Farfetch
+          from: Farfetch
         text: >
           How often are we attacked?! Every single DAY! What are our challenges and concerns as a global e-commerce site providing excellence services to a worldwide range of clients? What type of threats are we exposed to and what do we do to prevent them? In this session we will be able to address these questions in light of our business at Farfetch. Com que frequência somos atacados?! TODOS os dias! Quais as nossas preocupações enquanto empresa e-commerce global que fornece serviços de excelência a uma variedade de clientes à escala mundial? A que tipo de ameaças estamos expostos e de que forma nos prevenimos? Nesta sessão iremos abordar estas questões à luz da nossa realidade na Farfetch.
       - time: '11:45'
         icon: microphone
-        title: Competitive Intelligence & Information Warfare Association
+        title: Sociedade em Rede, Ciberespaço e Ciberdefesa - um Desafio Estratégico
         speaker:
           name: Tenente Coronel Paulo Nunes
           from: Academia Militar/CIIWA
@@ -136,13 +150,15 @@ days:
           name:  João Gil
           from:  IT Sector
         text: >
-         Apresentação de conceitos gerais de Segurança de Sistemas de Informação, através da abordagem de temas como a contextualização da Segurança nos Sistemas de Informação, introdução às primitivas criptográficas, exploração de conceitos de programação segura e análise e reconhecimento de erros de implementação de primitivas criptográficas.
+          A internet é uma rede composta por vários tipos de dispositivos, desde telemóveis a relógios, portáteis a servidores da cloud. Nos últimos dois anos, começa a abrir-se um mundo de novos dispositivos que se tornam agora smart, como cafeteiras inteligentes ou frigoríficos, compondo assim a "Internet of Things". Estes dispositivos são a nova fronteira da segurança, pois estarão na vossa rede interna empresarial ou doméstica e os seus fabricantes podem ter deixado a segurança para segundo plano. Nesta sessão serão apresentados alguns casos de dispositivos da "Internet of Things" assim como outros "casos estranhos" de dispositivos online, para os quais a segurança não foi uma prioridade e qual o impacto causado por estas falhas.
       - time: '14:45'
         icon: microphone
         title: Hacking - From Black to White!
         speaker:
-          name:  David Sopas
+          name: David Sopas
           from: Checkmarx
+        text: >
+          Esta talk fala sobre o percurso de um security researcher que desde muito cedo mostrou-se curioso na área da segurança de informação. Serão apresentados alguns exemplos deste caminho e relatos de vulnerabilidades nas maiores empresas do mundo.
       - time: '15:30'
         icon: coffee
         title: Coffee Break
@@ -150,8 +166,8 @@ days:
         icon: connectdevelop
         title: Secure Coding - Best Practices
         speaker:
-          name:  Fernando Silva
-          from: Critical Software
+          name: Fernando Silva
+          from: Critical Manufacturing
         text: >
           Presentation on how to successfully implement code resistant to attack by malicious or mischievous people or programs. Topics to be approached: Software Security Principles Overview -  Secure Coding Practices - Sources of Software Insecurity
       - time: '16:45'
@@ -163,6 +179,15 @@ days:
       - time: '17:10'
         icon: hourglass-start
         image: sponsors/bronze/checkmarx.png
+      - time: '17:20'
+        icon: hourglass-start
+        image: sponsors/bronze/oracle.png
+      - time: '17:30'
+        icon: hourglass-start
+        image: sponsors/bronze/winprovit.png
+      - time: '17:40'
+        icon: hourglass-start
+        image: sponsors/bronze/logic.png
 
   - id: daythree
     date: Junho 15
@@ -170,37 +195,47 @@ days:
     events:
       - time: '09:00'
         icon: connectdevelop
-        title: TBA
+        title: sessão Técnica
         speaker:
           name: Miguel Rocha
-          from: DI
+          from: Departamento de Informática
       - time: '09:45'
         icon: connectdevelop
-        title: TBA
+        title: Sessão Técnica
+        speaker:
+          speaker: Manuel João Ferreira
+          from: Enermeter
       - time: '10:30'
         icon: coffee
         title: Coffee Break
       - time: '11:00'
         icon: connectdevelop
-        title: TBA
+        title: Python - a web em modo turbo!
         speaker:
+          name: Pedro Leite, Pedro Correia Leite
           from: ANO Software
+        text: >
+          A rapidez e a agilidade do desenvolvimento de software são, cada vez mais, as armas secretas da indústria TI. Para tal, novas tecnologias tem surgido e a linguagem Python tem ganho popularidade junto da comunidade <em>developer</em> e da indústria devido à sua aprendizagem rápida, ser intuitiva e a sua produtividade. Com o surgimento de <em>frameworks</em> de desenvolvimento, esta aceitação consolidou-se ainda mais e há uma clara aposta nesta tecnologia para projetos, onde os prazos são exigentes e os níveis de qualidade inquestionáveis.  Assim, iremos apresentar a utilização desta tecnológica na “vida real”, ou seja, no contexto do novo projeto da <b>ANO Software</b>, com foco na <em>framework</em> utilizada, as suas boas práticas e os desafios encontrados, tudo pela voz de um ex-aluno da Universidade.
       - time: '11:45'
         icon: microphone
-        title: TBA
-      - time: '12:45'
+        title: Nanotechnology in Health
+        speaker:
+          name: Lars Montelius
+          from: INL
+      - time: '12:30'
         icon: cutlery
         title: Almoço
       - time: '14:00'
         icon: connectdevelop
-        title: TBA
+        title: Gestão de Fraude com Intelligent Cloud Services
         speaker:
+          name: Pedro Pires e Ricardo Faria
           from: WeDo Technologies
       - time: '14:45'
         icon: users
-        title: Tertúlia
+        title: Painel MedTech
         speaker:
-          name: Professor Nuno Sousa, João Martins
+          name: Professor Nuno Sousa, João Martins. Moderador - Carlos Oliveira
       - time: '15:30'
         icon: coffee
         title: Coffee Break
@@ -208,7 +243,7 @@ days:
         icon: connectdevelop
         title: Business Intelligence - Doing some magic with Pentaho and Tableau
         speaker:
-          name:  Boris Tchikoulaev
+          name: Boris Tchikoulaev
           from: Xpand IT
       - time: '16:45'
         icon: coffee
@@ -218,10 +253,12 @@ days:
         image: sponsors/bronze/dellent.png
       - time: '17:10'
         icon: hourglass-start
-        image: sponsors/bronze/bold/bold.png
-      - time: '17:20'
-        icon: hourglass-start
         image: sponsors/bronze/sonae.png
+      - time: '17:20'
+        icon: connectdevelop
+        title: Sessão Técnica
+        speaker:
+          from: Accenture
       - time: '20:30'
         icon: star
         title: Jantar de Encerramento
@@ -233,7 +270,7 @@ days:
           <p><a href="https://www.eventbrite.pt/e/registo-join2016-jornadas-de-informatica-da-universidade-do-minho-25765250558?ref=elink">Inscreve-te aqui!</a></p>
 
   - id: dayfour
-    date: Junho 11
+    date: Junho 18
     title: CoderDojo Minho
     text: >
       O <a href="https://www.facebook.com/CoderdojoMinho"><span class="external-link">CoderDojo Minho</span></a> é um movimento aberto e sem fins lucrativos para ensinar jovens dos 7 aos 17 a programar. Com a ajuda de membros ativos da comunidade, os mais novos têm a oportunidade de entrar em contacto com o mundo da programação. <bold>Inscreve-te <a href="https://zen.coderdojo.com/dojo/pt/braga/braga/braga-minho-1"><span class="external-link">aqui</span></a>.</bold>

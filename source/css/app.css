@@ -38,8 +38,6 @@
   -o-transition-duration: .4s;
   transition-duration: .4s;
   background-color: #E7EBED;
-  -webkit-filter: grayscale(1);
-  filter: grayscale(1);
 }
 
 #gold .sponsor img {
@@ -52,11 +50,6 @@
 
 #bronze .sponsor img {
   max-width: 150px;
-}
-
-.sponsor img:hover{
-  -webkit-filter: grayscale(0);
-  filter: grayscale(0);
 }
 
 .event-title img {
