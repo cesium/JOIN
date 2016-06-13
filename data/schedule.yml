@@ -67,8 +67,10 @@ days:
         speaker:
           from: EuroTux
       - time: '14:45'
-        title: Keynote
+        title: Ethereum Blockchain Security
         icon: microphone
+        text: >
+            Ethereum enables applications, services and storage which are universally accessible and autonomous – they cannot be turned off. However, with great power comes great responsibility. We will cover the overall architecture of Ethereum, what is was like to build the project form scratch, the security guarantees provided by the chain, and attack vectors against consensus, the p2p network, on-chain code, and applications.
         speaker:
           name: Alex Leverington
           from: Ethereum
@@ -184,8 +186,9 @@ days:
         image: sponsors/bronze/oracle.png
       - time: '17:30'
         icon: hourglass-start
+        image: sponsors/bronze/winprovit.png
         speaker:
-          name: WinProvit
+          name: Vera Almeida
       - time: '17:40'
         icon: hourglass-start
         speaker: 
